@@ -10,7 +10,7 @@ public class Personnages : MonoBehaviour
     public float Damages { get; protected set; }
     public List<Items> Bag { get; protected set; }
 
-    public void ReceiveDamages(float damage) { }
+    public void ReceiveDamages(float damage) { } 
 
     public void Attack(float damage) { }
 
