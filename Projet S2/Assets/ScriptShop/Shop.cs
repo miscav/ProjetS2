@@ -2,10 +2,14 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEditor.Search;
 using UnityEngine;
+using System;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 public class Shop : MonoBehaviour
 {
-    public Article[] Stock;
+    public List<Article> Stock;
 
     public Shop(Article[] stock)
     {
@@ -17,6 +21,11 @@ public class Shop : MonoBehaviour
 
     private void Start()
     {
-        Stock= new Article[0];
+        Stock= new List<Article>(0);
+    }
+
+    public void Buy(Player player, int indice)
+    {
+       
     }
 }
