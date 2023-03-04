@@ -7,6 +7,7 @@ public class Axe : Armes
         Duramax = -1;
         Durabilite = Duramax;
         Degat = -1;
+        Name = "Axe";
     }
 
     void Start()
@@ -16,5 +17,6 @@ public class Axe : Armes
         Duramax = -1;
         Durabilite = Duramax;
         Degat = -1;
+        Name = "Axe";
     }
 }

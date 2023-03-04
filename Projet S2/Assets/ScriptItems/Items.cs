@@ -4,6 +4,7 @@ public class Items : MonoBehaviour
 {
     public int Poids;
     public int Durabilite;
+    public string Name;
 
     public void detruire()
     {
@@ -14,5 +15,4 @@ public class Items : MonoBehaviour
         if (Durabilite <= 0)
             detruire();
     }
-
 }
