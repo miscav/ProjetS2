@@ -13,11 +13,11 @@ public class Player : Personnages
         if(balance > 0) Balance += balance;
     }
 
-    public eat(int index)
+    public Eat(int index)
     {
         if (Bag[index] is Food) 
         {
-            // a faire
+            ((Food)Bag[index]).Use(this); // Food
         }
     }
 
