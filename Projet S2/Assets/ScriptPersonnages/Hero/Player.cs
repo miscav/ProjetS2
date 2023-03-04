@@ -13,7 +13,7 @@ public class Player : Personnages
         if(balance > 0) Balance += balance;
     }
 
-    public Eat(int index)
+    public void Eat(int index)
     {
         if (Bag[index] is Food) 
         {
@@ -29,14 +29,6 @@ public class Player : Personnages
     public void PickUp(Items item)
     {
         // Pick Up
-    }
-
-    public void AddBag(List<Item> bag)
-    {
-        foreach (Item item in bag)
-        {
-            Bag.Add(item);
-        }
     }
 
     // Start is called before the first frame update

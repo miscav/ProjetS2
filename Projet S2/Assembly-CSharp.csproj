@@ -53,13 +53,39 @@
     <UnityVersion>2022.2.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\quetes\quete 2.cs" />
-    <Compile Include="Assets\Script\quetes\quete 1.cs" />
-    <Compile Include="Assets\Script\quetes.cs" />
+    <Compile Include="Assets\ScriptItems\Armes\Axe.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Robots\Marchant.cs" />
+    <Compile Include="Assets\ScriptQuetes\Quetes.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Vegetable.cs" />
+    <Compile Include="Assets\ScriptItems\Pieces\Engrenage.cs" />
+    <Compile Include="Assets\ScriptShop\Article.cs" />
+    <Compile Include="Assets\ScriptItems\Tools\Hammer.cs" />
+    <Compile Include="Assets\ScriptItems\Armes\Sword.cs" />
+    <Compile Include="Assets\ScriptQuetes\quetes\quete 1.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Meat.cs" />
+    <Compile Include="Assets\ScriptShop\Shop.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Monsters\Monsters.cs" />
+    <Compile Include="Assets\ScriptItems\Pieces\Taule.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Banana.cs" />
+    <Compile Include="Assets\ScriptItems\Pieces\Boulon.cs" />
+    <Compile Include="Assets\ScriptItems\Armes\Armes.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Robots\PNJ.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Fish.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Robots\Robots.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Hero\Player.cs" />
+    <Compile Include="Assets\ScriptQuetes\quetes\quete 2.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Food.cs" />
+    <Compile Include="Assets\ScriptItems\Armes\Torch.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Personnages.cs" />
+    <Compile Include="Assets\ScriptItems\Armes\Bow.cs" />
+    <Compile Include="Assets\ScriptItems\Food\Apple.cs" />
+    <Compile Include="Assets\ScriptPersonnages\Robots\Enemy.cs" />
+    <Compile Include="Assets\ScriptItems\Items.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

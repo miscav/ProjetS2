@@ -15,4 +15,9 @@ public class Items : MonoBehaviour
         if (Durabilite <= 0)
             detruire();
     }
+
+    public void Use()
+    {
+
+    }
 }

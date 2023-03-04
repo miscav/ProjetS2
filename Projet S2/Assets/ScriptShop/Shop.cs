@@ -11,12 +11,22 @@ public class Shop : MonoBehaviour
 {
     public List<Article> Stock;
 
+    public Shop()
+    {
+        
+    }
+
     public Shop(Article[] stock)
     {
         foreach(Article VARIABLE in stock)
         {
             Stock.Append(VARIABLE);
         }
+    }
+
+    public void Show()
+    {
+
     }
 
     private void Start()
