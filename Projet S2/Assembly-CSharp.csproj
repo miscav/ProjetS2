@@ -59,8 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ScriptItems\Armes\Axe.cs" />
+    <Compile Include="Assets\ScriptQuetes\quetes.cs" />
     <Compile Include="Assets\ScriptPersonnages\Robots\Marchant.cs" />
-    <Compile Include="Assets\ScriptQuetes\Quetes.cs" />
     <Compile Include="Assets\ScriptItems\Food\Vegetable.cs" />
     <Compile Include="Assets\ScriptItems\Pieces\Engrenage.cs" />
     <Compile Include="Assets\ScriptShop\Article.cs" />
