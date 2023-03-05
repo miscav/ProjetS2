@@ -1,0 +1,1101 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.5f1 (551d45108343) revision 5578053'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 15720 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/staba/ProjetS2/Projet S2
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54534
+Successfully changed project path to: C:/Users/staba/ProjetS2/Projet S2
+C:/Users/staba/ProjetS2/Projet S2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31532] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1664084321 [EditorId] 1664084321 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31532] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1664084321 [EditorId] 1664084321 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 18.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.5f1 (551d45108343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/staba/ProjetS2/Projet S2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005404 seconds.
+- Loaded All Assemblies, in  0.281 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.229 seconds
+Domain Reload Profiling:
+	ReloadAssembly (173ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+				TypeCache.Initialize (101ms)
+					TypeCache.ScanAssembly (99ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.871 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling:
+	ReloadAssembly (180ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (687ms)
+			LoadAssemblies (283ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+				TypeCache.Initialize (246ms)
+					TypeCache.ScanAssembly (241ms)
+				ResolveRequiredComponents (3ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (88.2 KB). Loaded Objects now: 4622.
+Memory consumption went from 0.63 GB to 0.63 GB.
+Total: 8.464200 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.137200 ms MarkObjects: 7.522400 ms  DeleteObjects: 0.482900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 688791.637500 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_left.terrainlayer
+  artifactKey: Guid(630526f594c11b34196947e39addf186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_left.terrainlayer using Guid(630526f594c11b34196947e39addf186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615ea887beafc524cc02891e7f307724') in 0.067171 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.251287 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_up.terrainlayer
+  artifactKey: Guid(a597e1737097f994a9beacb7152ea611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overcorrupted_up.terrainlayer using Guid(a597e1737097f994a9beacb7152ea611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5888f93d615edf7fdfb3099c4790e6c9') in 0.016517 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.057852 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_left.terrainlayer
+  artifactKey: Guid(0f4c7a21d9678e542a477fd5229167fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_left.terrainlayer using Guid(0f4c7a21d9678e542a477fd5229167fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d032caed6f8fdee21d346d2193e78f') in 0.014456 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.173577 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_up.terrainlayer
+  artifactKey: Guid(ed58adfb5ac840849b177a27f87a058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/dirt_overdesatured_up.terrainlayer using Guid(ed58adfb5ac840849b177a27f87a058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b3ad6c3271af11396a1ad07beddb0a') in 0.015445 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.214336 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_bluetint_down.terrainlayer
+  artifactKey: Guid(af09d6fd4ebc81e448c4a90956dfb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_bluetint_down.terrainlayer using Guid(af09d6fd4ebc81e448c4a90956dfb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e621abdfd9e9475eb2e42ba661b30ae3') in 0.014811 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.110506 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_bluetint_right.terrainlayer
+  artifactKey: Guid(d05b6b35cf7b1484bb2f64c0a74476dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_bluetint_right.terrainlayer using Guid(d05b6b35cf7b1484bb2f64c0a74476dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13a6a0a18dc44197089031c6b08109c') in 0.014988 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.192611 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_corrupted_down.terrainlayer
+  artifactKey: Guid(acddab07f8ac8c84aa7852a315806c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_corrupted_down.terrainlayer using Guid(acddab07f8ac8c84aa7852a315806c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eeeadec201ae44a382594de312b7c96') in 0.017498 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.064848 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_corrupted_right.terrainlayer
+  artifactKey: Guid(5a8233d884b35ae4581f8f254c1995be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_corrupted_right.terrainlayer using Guid(5a8233d884b35ae4581f8f254c1995be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5438e7c918eb690774d77bc46ca37e') in 0.011178 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.678460 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_darked_down.terrainlayer
+  artifactKey: Guid(8f32cc9883b377b4ebc3538ba838bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_darked_down.terrainlayer using Guid(8f32cc9883b377b4ebc3538ba838bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea886b86879fab46cf9e70f24f1b6294') in 0.012172 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.220272 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_darked_right.terrainlayer
+  artifactKey: Guid(1b91aa2ac8fa2b04b972e4af2dfa295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_darked_right.terrainlayer using Guid(1b91aa2ac8fa2b04b972e4af2dfa295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bffd1805de9ef7407fba2d90f5a5a99') in 0.012433 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.160241 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_desatured_down.terrainlayer
+  artifactKey: Guid(6cc09a088a350a64fa9c4fdadce1ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_desatured_down.terrainlayer using Guid(6cc09a088a350a64fa9c4fdadce1ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20fd4c6c24b89c72bf60017b141edc3') in 0.011153 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.243137 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_desatured_right.terrainlayer
+  artifactKey: Guid(e788cd2c1fd684744ba303b8cb656bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_desatured_right.terrainlayer using Guid(e788cd2c1fd684744ba303b8cb656bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c74e5a0a4ee1d98cd2f39c251901cb') in 0.012658 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.158736 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_down.terrainlayer
+  artifactKey: Guid(bd09f0681f28b484fb0610ef52f7254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_down.terrainlayer using Guid(bd09f0681f28b484fb0610ef52f7254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bd5b203946afc1d0acfc163f52d44b') in 0.022269 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.177814 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_right.terrainlayer
+  artifactKey: Guid(0cc50b69c88e8434eab1b49d54585984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_lighted_right.terrainlayer using Guid(0cc50b69c88e8434eab1b49d54585984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537a12006944234ce0cb66677486b550') in 0.011633 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.210580 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_down.terrainlayer
+  artifactKey: Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_down.terrainlayer using Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb35969d8588c9b3ed65a5e6a86bb10b') in 0.010886 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.061009 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_left.terrainlayer
+  artifactKey: Guid(8266026e5ca9bc247a41d77e26bb8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_left.terrainlayer using Guid(8266026e5ca9bc247a41d77e26bb8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0626fbe9fac1af1d43896eb4b092373') in 0.012772 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.233619 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_up.terrainlayer
+  artifactKey: Guid(d89b6494d9fbc994182207fed5df47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_normal_up.terrainlayer using Guid(d89b6494d9fbc994182207fed5df47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80db902d78c6c98e2a2a57d5e2ced9e') in 0.012379 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.158603 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_overcorrupted_left.terrainlayer
+  artifactKey: Guid(d5ab6a74ddc1fad42bd1a498812697f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_overcorrupted_left.terrainlayer using Guid(d5ab6a74ddc1fad42bd1a498812697f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d18d062796a51fef05d7c57e7944b5') in 0.012040 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.318259 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_overcorrupted_up.terrainlayer
+  artifactKey: Guid(66ebd6a3e966c7447a9f9b40428d928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_overcorrupted_up.terrainlayer using Guid(66ebd6a3e966c7447a9f9b40428d928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d1d5546deb8245ac88352e5faac025') in 0.012910 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.198767 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_dark_left.terrainlayer
+  artifactKey: Guid(d7db9727f3802a04cae590170e40b962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_dark_left.terrainlayer using Guid(d7db9727f3802a04cae590170e40b962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60157d17f5b50702dcb5cdbb25bd1bee') in 0.012352 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.090818 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_dark_up.terrainlayer
+  artifactKey: Guid(ae6d998d1ab092a489d8fd2c714eea4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_dark_up.terrainlayer using Guid(ae6d998d1ab092a489d8fd2c714eea4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81d2c3cf3b9e86139b8af1dda7bef26') in 0.012435 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.150610 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_lighted_left.terrainlayer
+  artifactKey: Guid(b2f803eb00f58364e828f1d3f8383af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_lighted_left.terrainlayer using Guid(b2f803eb00f58364e828f1d3f8383af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1ed0efa593869e3cd7800809fdf659') in 0.015078 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.144333 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_lighted_up.terrainlayer
+  artifactKey: Guid(ac1779a434deba04099ff213b16320e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_lighted_up.terrainlayer using Guid(ac1779a434deba04099ff213b16320e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943716fc21482f1a8a1618a10a0f67e5') in 0.013890 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.461900 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_normal_left.terrainlayer
+  artifactKey: Guid(055834330a513be4794397d9ee7d6802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_normal_left.terrainlayer using Guid(055834330a513be4794397d9ee7d6802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccc7dc31c10d166676274d87f7d397c') in 0.012237 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.401797 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_normal_up.terrainlayer
+  artifactKey: Guid(69952f0c7c34dca489b4215ee2e77310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/Grass_swamp_normal_up.terrainlayer using Guid(69952f0c7c34dca489b4215ee2e77310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14a24342206047b737207c931a7681b') in 0.013144 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.792637 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer.terrainlayer
+  artifactKey: Guid(d00f415280956e34aafe9f9add93e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer.terrainlayer using Guid(d00f415280956e34aafe9f9add93e82d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3e35b8442ba910dda7b0935da988e2') in 0.012547 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.070551 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 1.terrainlayer
+  artifactKey: Guid(0cafbabc50bb41a49b63a39566fbea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 1.terrainlayer using Guid(0cafbabc50bb41a49b63a39566fbea86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33bb5fed9bfdccfffb8040a85f1cd9') in 0.017563 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.349772 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 3.terrainlayer
+  artifactKey: Guid(84b7b834be2edbb4f8b44031fb25e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 3.terrainlayer using Guid(84b7b834be2edbb4f8b44031fb25e78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0f49539279a2ba970e018485131c4f') in 0.016387 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.392610 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 5.terrainlayer
+  artifactKey: Guid(7642c1e1e32bf8745b61278680f19343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 5.terrainlayer using Guid(7642c1e1e32bf8745b61278680f19343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814257eb9cf12bf24373c667b559b0dc') in 0.019248 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.320121 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 7.terrainlayer
+  artifactKey: Guid(de0b8db7bfd88a84b84cb144622fa9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 7.terrainlayer using Guid(de0b8db7bfd88a84b84cb144622fa9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10150195b79f51590093ebb42842b51a') in 0.015694 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.138977 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 9.terrainlayer
+  artifactKey: Guid(ee3dd4d767854794a9aaa178ad33010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 9.terrainlayer using Guid(ee3dd4d767854794a9aaa178ad33010e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb755b16a688146444c54fd11428f98e') in 0.015887 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.231978 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 11.terrainlayer
+  artifactKey: Guid(d416920543f84ac4fa1f3409560150b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 11.terrainlayer using Guid(d416920543f84ac4fa1f3409560150b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9fa2229b0a568cc0ab71fa49474bc5') in 0.018450 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171972 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 13.terrainlayer
+  artifactKey: Guid(0e4de40428c96f94297d5268d52bccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 13.terrainlayer using Guid(0e4de40428c96f94297d5268d52bccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9709b3ecdac4337b0be79e6e38857bb7') in 0.014691 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.054490 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 15.terrainlayer
+  artifactKey: Guid(fe3d726d2c1bd4e459b57db1302ba8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 15.terrainlayer using Guid(fe3d726d2c1bd4e459b57db1302ba8e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8089d8899d0c6a79db14bdf04865f3c1') in 0.014477 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.044917 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 17.terrainlayer
+  artifactKey: Guid(b1000b2dde0267c4b847b099f9eb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 17.terrainlayer using Guid(b1000b2dde0267c4b847b099f9eb8647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a53242cd284dc80ef6e11de2825d8c6') in 0.012792 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.235414 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 19.terrainlayer
+  artifactKey: Guid(225ce8ee6d06c63469219114c9a8bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 19.terrainlayer using Guid(225ce8ee6d06c63469219114c9a8bbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98723193e8ff49ec68550aa52791ca6') in 0.012496 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.195360 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 21.terrainlayer
+  artifactKey: Guid(e8c2080d77c5c1b48998cca24d2c0ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 21.terrainlayer using Guid(e8c2080d77c5c1b48998cca24d2c0ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4c706dc8d68fcb5bb72d66d6a480ef') in 0.012361 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.256939 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 23.terrainlayer
+  artifactKey: Guid(9aebfb395263daf41b5b513323aa0960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 23.terrainlayer using Guid(9aebfb395263daf41b5b513323aa0960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46789676e9ecb81e85e983742c30d88') in 0.022318 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.206005 seconds.
+  path: Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 25.terrainlayer
+  artifactKey: Guid(45a98ed8a47f7084994a0f15e88c6b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Handpainted_Grass_and_Ground_Textures/Demo/terrain_layers/NewLayer 25.terrainlayer using Guid(45a98ed8a47f7084994a0f15e88c6b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b931c54dc3927ca08a9901360f0b46') in 0.011890 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.049103 seconds.
+  path: Assets/Assets/Blink/Art/Textures/StylizedDesertTextures/Sand_1/Sand_1.mat
+  artifactKey: Guid(a8bafeb9ce249ad449cd43f428bf7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Blink/Art/Textures/StylizedDesertTextures/Sand_1/Sand_1.mat using Guid(a8bafeb9ce249ad449cd43f428bf7668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c23b272330f74078e49715e41e4f75') in 0.307824 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 5.111705 seconds.
+  path: Assets/Assets/New Terrain.asset
+  artifactKey: Guid(de3cf2b541ca6f343811ab47811b6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/New Terrain.asset using Guid(de3cf2b541ca6f343811ab47811b6305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d44d4cbe05cb7eacd16d3d4f45eb4dc') in 0.047905 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 401.268919 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Terrain/_TerrainAutoUpgrade_V2
+  artifactKey: Guid(65f1fcf74917c0d45a5f7a8b515bc8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Terrain/_TerrainAutoUpgrade_V2 using Guid(65f1fcf74917c0d45a5f7a8b515bc8ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b19ea654d48307d4441273654aa0cd') in 0.000663 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.620924 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight
+  artifactKey: Guid(ab18e07d5daed19439e85175e8830ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight using Guid(ab18e07d5daed19439e85175e8830ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91ed91dad2a3d537567bdc2dd3501e2') in 0.000655 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.076620 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight/EA03_Environment_RiverStraight_01f_R_PRE.prefab
+  artifactKey: Guid(e41418de37848584cb5ca56fe741b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight/EA03_Environment_RiverStraight_01f_R_PRE.prefab using Guid(e41418de37848584cb5ca56fe741b023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768d91013d3c1678b89160754a4465fa') in 0.035323 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight/EA03_Environment_RiverStraight_02b_PRE.prefab
+  artifactKey: Guid(048227a5d83a8884191728fca4f57ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/RiverStraight/EA03_Environment_RiverStraight_02b_PRE.prefab using Guid(048227a5d83a8884191728fca4f57ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77cd52ab3af4051b21afcd3b201cdcd') in 0.060089 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 8.568093 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes
+  artifactKey: Guid(5b826d9777e656f469eaeb8b78c8f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes using Guid(5b826d9777e656f469eaeb8b78c8f06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d639387d88331c388c43394b46ac44') in 0.000738 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.056689 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01a_PRE.prefab
+  artifactKey: Guid(eed938129e31212468dfecd2e4246b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01a_PRE.prefab using Guid(eed938129e31212468dfecd2e4246b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb54d070ede8c73f67757f52ff191038') in 0.015026 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01d_PRE.prefab
+  artifactKey: Guid(9f4b08501754f224c808ecef80684866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01d_PRE.prefab using Guid(9f4b08501754f224c808ecef80684866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fb3e489c40ecbae2516fdea0e5a59e') in 0.016272 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.009844 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01c_PRE.prefab
+  artifactKey: Guid(db180e7f4404e6540ba880512d2c196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_01c_PRE.prefab using Guid(db180e7f4404e6540ba880512d2c196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d42cfdf681763766f81346dc9e2618') in 0.019250 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03c_PRE.prefab
+  artifactKey: Guid(9c3c50b49e2f6064aae0377ac612b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_03c_PRE.prefab using Guid(9c3c50b49e2f6064aae0377ac612b18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46990a81c6a7aa0caa686b96f773a634') in 0.017928 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_05b_PRE.prefab
+  artifactKey: Guid(47ac1a31f245fb9458ba4f543b4127c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_05b_PRE.prefab using Guid(47ac1a31f245fb9458ba4f543b4127c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e16ee6c8b53c174fac6a278b7e9cf0d') in 0.019820 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_04a_PRE.prefab
+  artifactKey: Guid(8578c1ce40eaab042b7dddd0bd674058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_04a_PRE.prefab using Guid(8578c1ce40eaab042b7dddd0bd674058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a780e2a8dc43a7b156eda84835414a1c') in 0.025152 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_05a_PRE.prefab
+  artifactKey: Guid(3902e77c6481c6246b1a1943d749bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Nature/Bushes/EA03_Nature_Bush_05a_PRE.prefab using Guid(3902e77c6481c6246b1a1943d749bb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1072e2e4dce80bf36593daeaaa551c') in 0.026097 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 12.004038 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound
+  artifactKey: Guid(8d8bb535fc6a0504186a58ada8553054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound using Guid(8d8bb535fc6a0504186a58ada8553054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a9ff95c7871775554e6e76fb561f1') in 0.000735 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.457511 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound/Walls_Painted
+  artifactKey: Guid(cb2b61cb7b1a02545b494c4b14b7b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound/Walls_Painted using Guid(cb2b61cb7b1a02545b494c4b14b7b151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e144a08dba324fd7a93fb5e3e25f4fd') in 0.000593 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.078101 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound/Walls_Painted/EA03_Town_Hut_Wall_Painted_Desk_02a_PRE.prefab
+  artifactKey: Guid(c85ae87bbf201b940bcba31b404d61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Compound/Walls_Painted/EA03_Town_Hut_Wall_Painted_Desk_02a_PRE.prefab using Guid(c85ae87bbf201b940bcba31b404d61e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aa0ff8fd2164d122ecbb560771df83') in 0.012200 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.808902 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Administrative
+  artifactKey: Guid(6c8629fe590407745a5f5040f77f8475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Administrative using Guid(6c8629fe590407745a5f5040f77f8475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '141f2ed1e5ed96761b97e5ee7aaadb57') in 0.000521 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061377 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Administrative/EA03_Town_Building_Administrative _01a_PRE.prefab
+  artifactKey: Guid(973a2e4b0c2a13a40ba626a250daa7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Town/Administrative/EA03_Town_Building_Administrative _01a_PRE.prefab using Guid(973a2e4b0c2a13a40ba626a250daa7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488b837da5fd3e856af4d3337a7e6960') in 0.062371 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 211
+========================================================================
+Received Import Request.
+  Time since last request: 7.158930 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village
+  artifactKey: Guid(2b1752fecb78f454bb7cb51421e896c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village using Guid(2b1752fecb78f454bb7cb51421e896c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165a00472c4aac4f7c61f6b5d0e8dc02') in 0.000527 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.984438 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village
+  artifactKey: Guid(b30d68b6c434eee45a6d598ee759c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village using Guid(b30d68b6c434eee45a6d598ee759c92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd848a37e789694bc5845ea2f1271153') in 0.000604 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.717954 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village/AnimalBreeding
+  artifactKey: Guid(2e570af4e21d87646945b8d25f5c9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village/AnimalBreeding using Guid(2e570af4e21d87646945b8d25f5c9f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48116f551999e07632397a810f966eb5') in 0.000626 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063399 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village/AnimalBreeding/EA03_Village_AnimalBreeding_Hovel_01a_PRE.prefab
+  artifactKey: Guid(6aec5bac406a2d044ae41b2b1ef23ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Village/AnimalBreeding/EA03_Village_AnimalBreeding_Hovel_01a_PRE.prefab using Guid(6aec5bac406a2d044ae41b2b1ef23ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662e43783c00eb9d8d48c42087f968dd') in 0.018553 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.445802 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding
+  artifactKey: Guid(8be7ac8391e45fd4988047e17e25b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding using Guid(8be7ac8391e45fd4988047e17e25b82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9223e2b5ab9f8f0c3c0462380d037f1a') in 0.000592 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081464 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding/EA03_Village_OutBuilding_PentHouse_01a_PRE.prefab
+  artifactKey: Guid(e2f8c4b2f75e8c24e87456a8117a1508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/OutBuilding/EA03_Village_OutBuilding_PentHouse_01a_PRE.prefab using Guid(e2f8c4b2f75e8c24e87456a8117a1508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a452cade190e14c646f7d9a3ce46922') in 0.018438 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 18.138064 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building
+  artifactKey: Guid(5162d5742f760ae4eb9c9a9d1293ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building using Guid(5162d5742f760ae4eb9c9a9d1293ae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90c6846fa5ac0413f7323248cea4aac') in 0.000551 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.697303 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound
+  artifactKey: Guid(181d05efe9f0e044dbfb7ee07d72ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound using Guid(181d05efe9f0e044dbfb7ee07d72ed28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bf4e843af9bab46a790d5c4f16275c') in 0.000614 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.567829 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound/Walls
+  artifactKey: Guid(876917b37c582934eb44a9520477df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound/Walls using Guid(876917b37c582934eb44a9520477df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3642882e14d38c687c6e9c6eb22487') in 0.000514 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074849 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound/Walls/EA03_Village_Hut_Wall_Front_01i_PRE.prefab
+  artifactKey: Guid(225337266f16dc04aa201f020490e7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Compound/Walls/EA03_Village_Hut_Wall_Front_01i_PRE.prefab using Guid(225337266f16dc04aa201f020490e7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0674377d5cd484304d8891cd5fb46ff') in 0.021337 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 5.598875 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other
+  artifactKey: Guid(64f1ffe8ec8e592448c92eff9634e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other using Guid(64f1ffe8ec8e592448c92eff9634e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b40cec71c7577e4e2a5cde504845100') in 0.000573 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059170 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Bld_Village_Convenience_01a_PRE.prefab
+  artifactKey: Guid(f3df55c9e6956194ba244818b4d1618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Bld_Village_Convenience_01a_PRE.prefab using Guid(f3df55c9e6956194ba244818b4d1618c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9725b3e7ab4e479dc23d0714b3c64') in 0.020458 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_Tover_01a_PRE.prefab
+  artifactKey: Guid(9895332d2189d074892860f64e7d113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Village/Building/Other/EA03_Village_Tover_01a_PRE.prefab using Guid(9895332d2189d074892860f64e7d113a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6773bbf81bd7dd08c23385d3456912') in 0.027157 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 20.976218 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items
+  artifactKey: Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items using Guid(b68f1dd838057804a8877e6e112c1449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b87e4ee01ece2d4d3004c399fa93e7') in 0.000618 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.930091 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House
+  artifactKey: Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House using Guid(dceea58c6c8cc89429d90d1653dd4138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1ced59ae12fb9af70dcd69303dc207') in 0.000588 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084144 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab
+  artifactKey: Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Items_House_Besom_01a_PRE.prefab using Guid(3240fa7d641b05642a9fc92670faec26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9066f4fe62b1a809a4e72f5de9b59bcc') in 0.013886 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab
+  artifactKey: Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Hanger_01b_PRE.prefab using Guid(d33d1c1d6757af64f9740acdcc056948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c77db0f711454503eb352bdb776852') in 0.018410 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 14.916328 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Shelf_01g_PRE.prefab
+  artifactKey: Guid(c5f50c13bb9173843b834b4ce5b30cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Items/House/EA03_Prop_House_Shelf_01g_PRE.prefab using Guid(c5f50c13bb9173843b834b4ce5b30cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa99052e8a28201d465f5792b2ce4d1d') in 0.013918 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 31.329969 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Material
+  artifactKey: Guid(377130807130f4f4fb84d6d7dad4d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Material using Guid(377130807130f4f4fb84d6d7dad4d1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c552a76074b4e1827a9484fafd67628') in 0.000682 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059900 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Material/Art_01.mat
+  artifactKey: Guid(f62e812d12aa49e47b82bf3a37c372a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Material/Art_01.mat using Guid(f62e812d12aa49e47b82bf3a37c372a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913edab50a5003cc78eba3c999cd7e5f') in 0.015133 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_ForStandardRender.mat
+  artifactKey: Guid(7561046860f36724da94256e380c7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Material/EA03_LPNP-Slavika_Colorsheet_wind_ForStandardRender.mat using Guid(7561046860f36724da94256e380c7d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87272cda3360a9368ba20babd8d477c5') in 0.032381 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Material/Water.mat
+  artifactKey: Guid(7f1a01d22f40d3146b66a9113e3f7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Material/Water.mat using Guid(7f1a01d22f40d3146b66a9113e3f7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3117d5b0dd08097003abbdcd546bd437') in 0.015168 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.002218 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Editor
+  artifactKey: Guid(8e7f9517e9514c447a534d1e86f4fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Editor using Guid(8e7f9517e9514c447a534d1e86f4fd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c255d4758c476de3cb5a02e8601ca18') in 0.000621 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.567964 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/_CommonFiles
+  artifactKey: Guid(bba2a6cec04c1cd4cb661914973e83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/_CommonFiles using Guid(bba2a6cec04c1cd4cb661914973e83b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1afd430b583868f9a368bcaf5b0cc7df') in 0.000559 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.706456 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Scene
+  artifactKey: Guid(3470cda3d652e4140b3b10f66cc96ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Scene using Guid(3470cda3d652e4140b3b10f66cc96ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b21ddc9195f96057d19f8ff33f8009f') in 0.000630 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.419416 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/EA_Room_Int_LivingRoom_Comp_7x7_01a_PRE.prefab
+  artifactKey: Guid(ba5f2411d6356e74f960d5b2dd2d1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/EA_Room_Int_LivingRoom_Comp_7x7_01a_PRE.prefab using Guid(ba5f2411d6356e74f960d5b2dd2d1c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8037510825e907cbc3a95e6d6352cd66') in 0.018601 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 425
+========================================================================
+Received Import Request.
+  Time since last request: 1.583782 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain
+  artifactKey: Guid(606d137a4688b83439ed7f2c8ffd0fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain using Guid(606d137a4688b83439ed7f2c8ffd0fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa9089218e5414e2cfa075811166bb6') in 0.000512 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.758580 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain/Field
+  artifactKey: Guid(4b33810e804390143addd66e338acb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain/Field using Guid(4b33810e804390143addd66e338acb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc414ff5e5b2591ffc2b481621c6675') in 0.000570 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111236 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain/Field/EA03_Environment_Field_Comp_01a.prefab
+  artifactKey: Guid(6363e34dfc52e3340be71ff809be4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Terrain/Field/EA03_Environment_Field_Comp_01a.prefab using Guid(6363e34dfc52e3340be71ff809be4fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4485c5cb4f2ec6abb88585c8b519a5f') in 0.023558 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 197
+========================================================================
+Received Import Request.
+  Time since last request: 17.574384 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop
+  artifactKey: Guid(af4b1bb4b7f4d2c44b7de0e00ee9f3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop using Guid(af4b1bb4b7f4d2c44b7de0e00ee9f3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7af1f43fc85c08ae7fb77a8fe397ad') in 0.000550 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054678 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA03_Items_House_Apple_01a__PRE.prefab
+  artifactKey: Guid(e31bf42144a454340baa4183b3539cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA03_Items_House_Apple_01a__PRE.prefab using Guid(e31bf42144a454340baa4183b3539cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea803f97a18f91d66f497cb535a9f49') in 0.018361 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA03_Items_House_Carrot_01a__PRE.prefab
+  artifactKey: Guid(3b22a8bc21e30d94ea4bdf36b9130bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA03_Items_House_Carrot_01a__PRE.prefab using Guid(3b22a8bc21e30d94ea4bdf36b9130bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b58b4fa6ac725806ebd5bdcd32ac9e') in 0.018094 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA_Artefact_PRE.prefab
+  artifactKey: Guid(d93158440308f6a4f88ef35c5fdeb20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/EA_Artefact_PRE.prefab using Guid(d93158440308f6a4f88ef35c5fdeb20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a91f62517eb0f58b5189285f952f19b') in 0.060243 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 176
+========================================================================
+Received Import Request.
+  Time since last request: 11.490580 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village
+  artifactKey: Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village using Guid(976d666bb4d56e04c8ee22b615297e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36efc1add75314ac1d349f8136d33910') in 0.000593 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057793 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab
+  artifactKey: Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_House_Stove_01b_PRE.prefab using Guid(fc43b88d7c139fc4a87fee88ffeaf445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1699ae3f599732665d40620901847421') in 0.018081 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_Village_Whell_01d_PRE.prefab
+  artifactKey: Guid(b8a2f1e84c0f4744db1bdc8d321139a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Village/EA03_Prop_Village_Whell_01d_PRE.prefab using Guid(b8a2f1e84c0f4744db1bdc8d321139a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3d9b3ebf9f68e1c06943c92c33b692') in 0.021594 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 19.072980 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden
+  artifactKey: Guid(c26fa8953f61cbf43a2a8bf0fd292308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden using Guid(c26fa8953f61cbf43a2a8bf0fd292308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cf017d398b2b7a8e81ff9a33d776e6') in 0.000486 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051454 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01a_PRE.prefab
+  artifactKey: Guid(73952e1cfa04b4c4b8752317196d3e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01a_PRE.prefab using Guid(73952e1cfa04b4c4b8752317196d3e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70562701510b7246504b239294087a36') in 0.010396 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.002853 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01b_PRE.prefab
+  artifactKey: Guid(66dd03f1bb8e3494ea0b1c551db06d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/wooden/EA03_Wooden_Pin_01b_PRE.prefab using Guid(66dd03f1bb8e3494ea0b1c551db06d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54fd75bb06032f945f26d21f1564d8e') in 0.017497 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 16.808792 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Sign
+  artifactKey: Guid(329d47cdf3046214ab7acb3583f61e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Sign using Guid(329d47cdf3046214ab7acb3583f61e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022900dc8b1263c85ff405fd54a6c078') in 0.000550 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050928 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Sign/EA03_Prop_Sign_Chapel_01_PRE.prefab
+  artifactKey: Guid(cb0202a48afd8ff428cd62c8437902f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Sign/EA03_Prop_Sign_Chapel_01_PRE.prefab using Guid(cb0202a48afd8ff428cd62c8437902f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cf4106d7ed9bf3d3d3528ead61a06e') in 0.027426 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 15.321395 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter
+  artifactKey: Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter using Guid(8645e5258eb5053438dbe3eb6f2232e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb8605da9cef3d82ced5eab0b04c391') in 0.000572 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054746 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab
+  artifactKey: Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Hunter/EA03_Prop_Town_AnimalSkin_01b_PRE.prefab using Guid(ac36a83878e33e54cb3ec90ee13a76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8722234f3f187aafa2390a98a8384632') in 0.016096 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 6.265670 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture
+  artifactKey: Guid(5ccb994782f7cec409eef319cfc6c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture using Guid(5ccb994782f7cec409eef319cfc6c03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f18236fdb4e5eaf16107cf2d777438f') in 0.000612 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050031 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_House_Shelf_01a_PRE.prefab
+  artifactKey: Guid(f219e44f8c45a5148ace498ba060743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_House_Shelf_01a_PRE.prefab using Guid(f219e44f8c45a5148ace498ba060743a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9d8af5094d21629694905907047ede') in 0.016283 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Shelf_01b_PRE.prefab
+  artifactKey: Guid(d6c1c92987a689841b6f454c28e98ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Shelf_01b_PRE.prefab using Guid(d6c1c92987a689841b6f454c28e98ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71ee634465847f343e3123ad5986e2c') in 0.018509 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Stool_01a_PRE.prefab
+  artifactKey: Guid(5cfd4a6b2ea91344f94e74b885be6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Stool_01a_PRE.prefab using Guid(5cfd4a6b2ea91344f94e74b885be6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900f4d5c915bf04171182eed02af42c3') in 0.073475 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Tabble_02a_PRE 1.prefab
+  artifactKey: Guid(e4c3e00dddc572e4f843dc8b9f5c3c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Furniture/EA03_Prop_Tabble_02a_PRE 1.prefab using Guid(e4c3e00dddc572e4f843dc8b9f5c3c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294b738dc2645fc086214f43e731ba61') in 0.139712 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 536
+========================================================================
+Received Import Request.
+  Time since last request: 2.578460 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Forester
+  artifactKey: Guid(9c15d41d8478e894cac26152779befd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Forester using Guid(9c15d41d8478e894cac26152779befd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3539aaf63e910380636b8940a0eef95c') in 0.000548 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042458 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Forester/EA03_Prop_Forester_CutOutTrees_03_PRE.prefab
+  artifactKey: Guid(d437dde4e0c296c47bc302794fc84bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Forester/EA03_Prop_Forester_CutOutTrees_03_PRE.prefab using Guid(d437dde4e0c296c47bc302794fc84bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef5c05984815f86748384f3af715c2e') in 0.017576 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.305351 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container
+  artifactKey: Guid(ac8c6914136e9754bba0aca5024c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container using Guid(ac8c6914136e9754bba0aca5024c356d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c6cf1c7d9db70599fd11c74e70535') in 0.000598 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031443 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Bag_02a_PRE.prefab
+  artifactKey: Guid(d83008bf16dbec848bb3db2bfa781c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Bag_02a_PRE.prefab using Guid(d83008bf16dbec848bb3db2bfa781c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184fbffd3c2fa02860d57acfda9c07ec') in 0.017537 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_03a_PRE.prefab
+  artifactKey: Guid(18b1e45bbfd559d4fa71b282638449c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_03a_PRE.prefab using Guid(18b1e45bbfd559d4fa71b282638449c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1379f784626e75ccf640c9b88d4e67fb') in 0.018003 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_02_PRE.prefab
+  artifactKey: Guid(3f9afb8cd50cdbb4e809f311e2afed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Basket_02_PRE.prefab using Guid(3f9afb8cd50cdbb4e809f311e2afed77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabb7850292323c6e0ffecd80add957a') in 0.011075 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Vegetable_Basket_01a_PRE.prefab
+  artifactKey: Guid(1de5083244ecdb64995ead4f839d08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Vegetable_Basket_01a_PRE.prefab using Guid(1de5083244ecdb64995ead4f839d08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82efb16dbf4bc2dbb093323d68a1b2c2') in 0.016375 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_02a_PRE.prefab
+  artifactKey: Guid(ec5fbaee07c9f8c448cc5b39e6f698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Container/EA03_Prop_Container_Crate_02a_PRE.prefab using Guid(ec5fbaee07c9f8c448cc5b39e6f698ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31c3afabbe219da815caf4a30e88445') in 0.020550 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 12.347238 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry
+  artifactKey: Guid(94a67e53e3deaf840b6efabca18cef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry using Guid(94a67e53e3deaf840b6efabca18cef03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3756a2e1fdc053ab6bdbcacb136c69f6') in 0.000663 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065171 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab
+  artifactKey: Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Prefabs/Prop/Carpentry/EA03_Prop_Brushwood_03a_PRE.prefab using Guid(1c639f495d926094e8fc0ca59c3ddd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ba66265f6d40bd2e2b91211318237f6') in 0.019782 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

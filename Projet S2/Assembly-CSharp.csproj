@@ -53,7 +53,6 @@
     <UnityVersion>2022.2.5f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -80,6 +79,7 @@
     <Compile Include="Assets\ScriptPersonnages\Hero\Player.cs" />
     <Compile Include="Assets\ScriptQuetes\quetes\quete 2.cs" />
     <Compile Include="Assets\ScriptItems\Food\Food.cs" />
+    <Compile Include="Assets\BrokenVector\LowPolyBrickHouses\Scripts\ModelCustomizer.cs" />
     <Compile Include="Assets\ScriptItems\Armes\Torch.cs" />
     <Compile Include="Assets\ScriptPersonnages\Personnages.cs" />
     <Compile Include="Assets\ScriptItems\Armes\Bow.cs" />
@@ -90,7 +90,11 @@
   <ItemGroup>
     <None Include="Assets\Assets\EmaceArt\Slavic World Free\Plugin\Grass.shader" />
     <None Include="Assets\Assets\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
+    <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
+    <None Include="Assets\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
     <None Include="Assets\Assets\EmaceArt\Slavic World Free\Thanks and checkout this\Info.txt" />
+    <None Include="Assets\CastlePack\Prefabs\readme.txt" />
+    <None Include="Assets\BrokenVector\LowPolyBrickHouses\Shaders\FoliageShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
