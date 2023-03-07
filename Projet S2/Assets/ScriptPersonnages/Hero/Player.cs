@@ -7,8 +7,8 @@ public class Player : Personnages
 {
     private int Balance;
     public int GetBalance() { return Balance; }
-    private Rigidbody character;
-    bool isGrounded = true;
+    private float run = 1;
+    private Vector3 playerVelocity;
 
     public void AddBalance(int balance)
     {
@@ -33,6 +33,8 @@ public class Player : Personnages
         // Pick Up
     }
 
+    public float rotateSpeed = 180.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,45 +43,38 @@ public class Player : Personnages
         Speed = 5f;
         Damages = 10f;
         Bag = new List<Items> {  };
-        character = GetComponent<Rigidbody>();
+        Character = GetComponent<CharacterController>();
     }
 
-    public float rotateSpeed = 180.0f;
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space) && isGrounded)
+        if(Input.GetKey(KeyCode.LeftShift))
         {
-            character.AddForce(Vector3.up * 5000);
-            isGrounded = false;
+            run = 1.5f;
         }
-        // Deplacement du Player vers l'avant
-        if (Input.GetKey(KeyCode.W))
+
+        Coordinates = transform.position;
+
+        if (Character.velocity.y < 0 && Character.isGrounded) playerVelocity.y = 0f;
+
+        Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        Character.Move(transform.right * move.x * Time.deltaTime * Speed * run);
+        Character.Move(transform.forward * move.z * Time.deltaTime * Speed * run);
+
+        // Changes the height position of the player..
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * Speed);
+            playerVelocity.y += -1 * Gravity;
+            Debug.Log("fdf");
         }
-        // Deplacement du Player vers l'arrière 
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector3.back * Time.deltaTime * Speed);
-        }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector3.left * Time.deltaTime * Speed);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector3.right * Time.deltaTime * Speed);
-        }
-        // Rotation du Player avec la souris 
+
+        playerVelocity.y += Gravity * Time.deltaTime;
+
+        Character.Move(playerVelocity * Time.deltaTime);
+
+        run = 1f;
+
         transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X"), 0) * Time.deltaTime * rotateSpeed);
-
-
-    }
-
-    void OnCollisionEnter(Collision other)
-    {
-        isGrounded = true;
     }
 }
 

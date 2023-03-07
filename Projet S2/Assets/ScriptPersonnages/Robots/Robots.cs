@@ -20,6 +20,5 @@ public class Robots : Personnages
 
     public void QueteCompleted(Player player)
     {
-        player.AddBalance(Reward);
     }
 }
