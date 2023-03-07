@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class Player : Personnages
 {
@@ -62,10 +61,9 @@ public class Player : Personnages
         Character.Move(transform.forward * move.z * Time.deltaTime * Speed * run);
 
         // Changes the height position of the player..
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Character.isGrounded)
         {
-            playerVelocity.y += -1 * Gravity;
-            Debug.Log("fdf");
+            playerVelocity.y += -0.7f * Gravity;
         }
 
         playerVelocity.y += Gravity * Time.deltaTime;
