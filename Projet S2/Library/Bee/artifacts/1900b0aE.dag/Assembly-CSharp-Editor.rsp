@@ -420,6 +420,7 @@
 "Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
 "Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
+"Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs"
 -langversion:9.0
 
 /deterministic
