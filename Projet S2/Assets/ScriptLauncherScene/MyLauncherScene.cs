@@ -60,21 +60,21 @@ public class MyLauncherScene : MonoBehaviourPunCallbacks
 
     public override void OnJoinRandomFailed(short returnCode, string message)
     {
-        LogFeedback("<Color=Red>OnJoinRandomFailed</Color>: Next -> Create a new Room");
+        LogFeedback("OnJoinRandomFailed: Next -> Create a new Room");
         Debug.Log("OnJoinRandomFailed() was called.");
         PhotonNetwork.CreateRoom(null, new RoomOptions { MaxPlayers = this.maxPlayersPerRoom });
 
     }
     public override void OnDisconnected(DisconnectCause cause)
     {
-        LogFeedback("<Color=Red>OnDisconnected</Color>" + cause);
+        LogFeedback("OnDisconnected" + cause);
         Debug.LogError("Disconnected");
         isConnecting = false;
         button.interactable = false;
     }
     public override void OnJoinedRoom()
     {
-        LogFeedback("<Color=Green>OnJoinedRoom</Color> with " + PhotonNetwork.CurrentRoom.PlayerCount);
+        LogFeedback("OnJoinedRoom with " + PhotonNetwork.CurrentRoom.PlayerCount);
         Debug.Log("OnJoinedRoom() was called.");
 
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
