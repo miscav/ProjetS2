@@ -1,10 +1,14 @@
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "Items", menuName="Items/new Item")]
+
 public class Items : ScriptableObject
 {
+    [SerializeField] public Sprite Visual;
+    [SerializeField] public GameObject Prefab;
     public int Poids;
     public int Durabilite;
-    public string Name;
+    [SerializeField] public string Name;
 
     public void detruire(Player player)
     {
