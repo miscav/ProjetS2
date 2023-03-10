@@ -1,23 +1,34 @@
 using UnityEngine;
 
-public class Items : MonoBehaviour
+public class Items : ScriptableObject
 {
     public int Poids;
     public int Durabilite;
     public string Name;
 
-    public void detruire()
+    public void detruire(Player player)
     {
+        int i = 0;
+        foreach(Items items in player.Bag)
+        {
+            if (items == this)
+            {
+                player.Bag.RemoveAt(i);
+                break;
+            }
+            i++;
+        }
     }
 
-    public void isbroken()
+    public void isbroken(Player player)
     {
         if (Durabilite <= 0)
-            detruire();
+            detruire(player);
     }
 
-    public void Use()
+    public void Use(Player player)
     {
-
+        Durabilite -= 1;
+        isbroken(player);
     }
 }
