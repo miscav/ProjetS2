@@ -5,6 +5,7 @@ public class Items : MonoBehaviour
     public int Poids;
     public int Durabilite;
     public string Name;
+    public ItemsData dataItem;
 
     public void detruire()
     {

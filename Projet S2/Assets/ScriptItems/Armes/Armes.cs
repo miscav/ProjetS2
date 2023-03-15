@@ -1,15 +1,20 @@
-public class Armes : Items
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Armes : ItemsData
 {
-    public int Degat;
-    public int Portee;
-    public int Duramax;
+    [SerializeField] public int Degat;
+    [SerializeField] public int Portee;
+    [SerializeField] public int Duramax;
 
     public void reparer()
     {
-        Durabilite = Duramax;
+
     }
 
     public void use()
     {
+
     }
 }
