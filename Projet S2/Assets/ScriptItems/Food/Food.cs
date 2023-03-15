@@ -1,3 +1,7 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "Items", menuName = "Items/Food")]
+
 public class Food : ItemsData
 {
     public int Miam;

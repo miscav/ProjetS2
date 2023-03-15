@@ -1,10 +1,8 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace Assets.ScriptItems
+
+public class Items : MonoBehaviour
 {
-    public class Items : MonoBehaviour
-    {
-        public ItemsData ItemsData;
-    }
+    public ItemsData ItemsData;
 }
