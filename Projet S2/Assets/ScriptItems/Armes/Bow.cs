@@ -13,21 +13,21 @@ public class Bow : Armes
 
     public Bow()
     {
-        Poids = -1;
-        Portee = -1;
-        Duramax = -1;
+        isloaded = false;
+        Poids = 2;
+        Portee = 10;
+        Duramax = 100;
         Durabilite = Duramax;
-        Degat = -1;
+        Degat = 10;
     }
 
     void Start()
     {
-        nbrfleche= -1;
         isloaded = false;
-        Poids = -1;
-        Portee = -1;
-        Duramax = -1;
+        Poids = 2;
+        Portee = 10;
+        Duramax = 100;
         Durabilite = Duramax;
-        Degat = -1;
+        Degat = 10;
     }
 }
