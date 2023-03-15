@@ -6,6 +6,7 @@ public class Armes : ItemsData
     public int Degat;
     public int Portee;
     public int Duramax;
+    protected ItemType itemtype = ItemType.Armes;
 
     /*public void reparer()
     {

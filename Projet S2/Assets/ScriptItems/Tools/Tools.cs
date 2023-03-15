@@ -1,11 +1,11 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace Assets.ScriptItems.Tools
-{
 
-    public class Tools : ItemsData
-    {
-        
-    }
-}
+
+
+[CreateAssetMenu(fileName = "Items", menuName = "Items/Tools")]
+public class Tools : ItemsData
+ {
+        protected ItemType itemtype = ItemType.Tools;
+ }

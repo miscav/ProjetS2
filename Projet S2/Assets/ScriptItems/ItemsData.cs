@@ -9,6 +9,15 @@ public class ItemsData : ScriptableObject
     public int Poids;
     public int Durabilite;
     [SerializeField] public string Name;
+    
+    
+    public enum ItemType
+    {
+        Armes,
+        Food,
+        Tools,
+        Piece
+    }
 
     public void detruire(Player player)
     {
