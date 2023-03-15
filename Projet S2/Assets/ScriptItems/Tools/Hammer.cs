@@ -1,4 +1,6 @@
-public class Hammer : Items
+using Assets.ScriptItems.Tools;
+
+public class Hammer : Tools
 {
     public int Efficacite;
     public int Portee;

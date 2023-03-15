@@ -1,4 +1,4 @@
-public class Engrenage : Items
+public class Engrenage : ItemsData
 {
     public Engrenage()
     {

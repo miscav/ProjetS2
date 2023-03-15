@@ -1,4 +1,4 @@
-public class Food : Items
+public class Food : ItemsData
 {
     public int Miam;
     public int Bouchees;

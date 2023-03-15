@@ -1,4 +1,4 @@
-public class Boulon : Items
+public class Boulon : ItemsData
 {
     public Boulon()
     {

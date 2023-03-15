@@ -1,4 +1,4 @@
-﻿public class Taule : Items
+﻿public class Taule : ItemsData
 {
     public Taule()
     {
