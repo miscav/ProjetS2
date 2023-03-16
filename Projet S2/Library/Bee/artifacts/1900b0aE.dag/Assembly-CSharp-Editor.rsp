@@ -418,9 +418,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Assets/EmaceArt/Slavic World Free/Editor/WelcomeWindow.cs"
 "Assets/Blink/Art/Characters/LowPoly/Editor/MaterialTilingOffset.cs"
-"Assets/BrokenVector/LowPolyBrickHouses/Editor/ModelCustomizerInspector.cs"
+"Assets/BOULE QUI SUIT LE PERSONNAGE/Assets/Scripts/Editor/RobotFreeAnimEditor.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/Editor/ChatEditor.cs"
-"Assets/RobotSphere/Assets/Scripts/Editor/RobotFreeAnimEditor.cs"
 -langversion:9.0
 
 /deterministic

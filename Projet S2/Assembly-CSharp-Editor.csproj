@@ -59,10 +59,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
-    <Compile Include="Assets\BrokenVector\LowPolyBrickHouses\Editor\ModelCustomizerInspector.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
     <Compile Include="Assets\Assets\EmaceArt\Slavic World Free\Editor\WelcomeWindow.cs" />
-    <Compile Include="Assets\RobotSphere\Assets\Scripts\Editor\RobotFreeAnimEditor.cs" />
+    <Compile Include="Assets\BOULE QUI SUIT LE PERSONNAGE\Assets\Scripts\Editor\RobotFreeAnimEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
