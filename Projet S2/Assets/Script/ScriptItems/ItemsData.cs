@@ -5,7 +5,7 @@ using UnityEngine;
 public class ItemsData : ScriptableObject
 {
     [SerializeField] protected string Name;
-    [SerializeField] protected Sprite Visual;
+    [SerializeField] public Sprite Visual;
     [SerializeField] protected GameObject Prefab;
     [SerializeField] protected ItemType itemType;
 

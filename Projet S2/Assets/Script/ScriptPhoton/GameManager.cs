@@ -58,14 +58,14 @@ public class GameManager : MonoBehaviourPunCallbacks
     // Affiche un message lors de l'arrivé du Player dans la Room
     public void OnPlayerEnterRoom(Player other)
     {
-        Debug.Log(other.NickName + " is connected ! ");
+        Debug.Log( " is connected ! ");
     }
 
 
     // Affiche un message lors du départ du Player de la Room
-    public override void OnPlayerLeftRoom(Player other)
+    public void OnPlayerLeftRoom(Player other)
     {
-        Debug.Log(other.NickName + " is disconnected ! ");
+        Debug.Log( " is disconnected ! ");
     }
 
     // Programme exécuté en parallèle, utilise WaitToLeave
