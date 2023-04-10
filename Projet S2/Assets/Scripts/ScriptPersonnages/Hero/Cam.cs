@@ -1,0 +1,91 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class Cam : MonoBehaviour
+{
+    [SerializeField] Player player;
+    [SerializeField] Ray ray;
+    [SerializeField] GameObject Interaction;
+    [SerializeField] GameObject Text;
+    [SerializeField] int QuetesAcheve;
+    [SerializeField] private QueteManagement QueteVise;
+
+    void Start()
+    {
+        ray = new Ray(transform.position, transform.forward*10);
+        QuetesAcheve = 0;
+        Text.SetActive(false);
+        Interaction.SetActive(false);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 3))
+        {
+            if(hit.collider.gameObject.CompareTag("Quete"))
+            {
+                QueteVise = hit.collider.gameObject.GetComponent<QueteManagement>();
+
+                Interaction.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    Text.GetComponentInChildren<Text>().text = QueteVise.quete.text;
+                    Text.SetActive(true);
+                }
+            }
+            else
+            {
+                Interaction.SetActive(false);
+            }
+        }
+        else
+        {
+            Interaction.SetActive(false);
+        }
+    }
+
+    public void Accept()
+    {
+        if(QueteManagement.QuetesActuelle == null)
+        {
+            if(QueteVise.quete is Principale)
+            {
+                if (((Principale)QueteVise.quete).Requis == -1)
+                {
+                    QuetesAcheve++;
+                }
+                else if(((Principale)QueteVise.quete).Requis == QuetesAcheve)
+                {
+                    QueteManagement.QuetesActuelle = QueteVise.quete;
+                }
+                else
+                {
+                    Debug.Log("Vous devez effectuez les quetes principales précédantes avant celle ci !");
+                }
+            }
+
+            Close();
+        }
+        else
+        {
+            Close();
+            Debug.Log("Vous avez deja une mission en cours !");
+        }
+    }
+
+    public void Close()
+    {
+        Text.SetActive(false);
+    }
+
+    public void Kill()
+    {
+        Text.SetActive(false);
+        player.ReceiveDamages(player.GetHealth());
+    }
+}
