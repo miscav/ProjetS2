@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class QueteManagement : MonoBehaviour
 {
-    [SerializeField] public Quetes quete;
+    [SerializeField] public Queue<Quetes> quete;
     [SerializeField] public static Quetes QuetesActuelle;
     [SerializeField] public static Player player;
     [SerializeField] public static Inventory inventory;
 
     private void Start()
     {
+        quete = new Queue<Quetes>();
         QuetesActuelle = null;
     }
 
-    public static void Reussi()
+    public void Reussi()
     {
+        Quetes succeed = quete.Dequeue();   
         QuetesActuelle = null;
-        player.AddBalance(QuetesActuelle.RewardMoney);
-        inventory.Add(QuetesActuelle.RewardItem);
+        player.AddBalance(succeed.RewardMoney);
+        inventory.Add(succeed.RewardItem);
+
+
     }
     public void Abandon()
     {

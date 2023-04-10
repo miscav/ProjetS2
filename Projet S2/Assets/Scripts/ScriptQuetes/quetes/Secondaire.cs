@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Secondaire", menuName = "Quete/New Quete Secondaire")]
 public class Secondaire : Quetes
 {
-
+    [SerializeField] public ItemsData ItemToBring;
 }

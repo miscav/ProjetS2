@@ -18,7 +18,6 @@ public class ActionTrigger : MonoBehaviour
     {
         if (Item != null && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("aaa");
             inventory.Add(Item.transform.gameObject.GetComponent<Items>().dataItem);
             Destroy(Item.transform.gameObject);
             PickUpPanel.SetActive(false);
@@ -29,7 +28,6 @@ public class ActionTrigger : MonoBehaviour
     {
         if (other.CompareTag("Item"))
         {
-            Debug.Log("aa");
             Item = other.gameObject;
             PickUpPanel.SetActive(true);
         }

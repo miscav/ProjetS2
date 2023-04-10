@@ -34,7 +34,7 @@ public class Cam : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    Text.GetComponentInChildren<Text>().text = QueteVise.quete.text;
+                    Text.GetComponentInChildren<Text>().text = QueteVise.quete.Peek().text;
                     Text.SetActive(true);
                 }
             }
@@ -53,15 +53,15 @@ public class Cam : MonoBehaviour
     {
         if(QueteManagement.QuetesActuelle == null)
         {
-            if(QueteVise.quete is Principale)
+            if(QueteVise.quete.Peek() is Principale)
             {
-                if (((Principale)QueteVise.quete).Requis == -1)
+                if (((Principale)QueteVise.quete.Peek()).Requis == 0)
                 {
                     QuetesAcheve++;
                 }
-                else if(((Principale)QueteVise.quete).Requis == QuetesAcheve)
+                else if(((Principale)QueteVise.quete.Peek()).Requis == QuetesAcheve)
                 {
-                    QueteManagement.QuetesActuelle = QueteVise.quete;
+                    QueteManagement.QuetesActuelle = QueteVise.quete.Peek();
                 }
                 else
                 {
