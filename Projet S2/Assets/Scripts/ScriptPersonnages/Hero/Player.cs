@@ -87,5 +87,6 @@ public class Player : Personnages
     }
 
     public float rotateSpeed = 180.0f;
+
 }
 

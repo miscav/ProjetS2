@@ -47,8 +47,11 @@ public class Inventory : MonoBehaviour
 
     public void Add(ItemsData item)
     {
-        Content.Add(item);
-        Refresh();
+        if(item != null)
+        {
+            Content.Add(item);
+            Refresh();
+        }
     }
 
     public void Refresh()
@@ -64,7 +67,7 @@ public class Inventory : MonoBehaviour
     public void OpenActionItemPanel(ItemsData item)
     {
         // use drop equip repair destroy
-        switch(item.itemType)
+        switch (item.itemType)
         {
             case ItemsData.ItemType.Weapon:
                 UseButton.SetActive(false);
@@ -105,5 +108,5 @@ public class Inventory : MonoBehaviour
     public void CloseActionItemPanel()
     {
         ActionItemPanel.SetActive(false);
-    }    
+    }
 }

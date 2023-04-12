@@ -2,7 +2,9 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 using System;
+#pragma warning disable CS0105 // La directive using de 'System' est apparue précédemment dans cet espace de noms
 using System;
+#pragma warning restore CS0105 // La directive using de 'System' est apparue précédemment dans cet espace de noms
 using System.Collections.Generic;
 using System.IO;
 
