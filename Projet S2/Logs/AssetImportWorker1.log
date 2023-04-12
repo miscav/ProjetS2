@@ -15,7 +15,7 @@ C:/Users/staba/ProjetS2/Projet S2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58489
+53830
 Successfully changed project path to: C:/Users/staba/ProjetS2/Projet S2
 C:/Users/staba/ProjetS2/Projet S2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/staba/ProjetS2/Projet S2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18520] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 180294238 [EditorId] 180294238 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26224] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1212692788 [EditorId] 1212692788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18520] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 180294238 [EditorId] 180294238 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26224] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1212692788 [EditorId] 1212692788 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 23.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006900 seconds.
-- Loaded All Assemblies, in  0.367 seconds
+Registered in 0.012171 seconds.
+- Loaded All Assemblies, in  0.375 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.314 seconds
+- Finished resetting the current domain, in  0.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (221ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (230ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (2ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (86ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
-				TypeCache.Initialize (134ms)
-					TypeCache.ScanAssembly (133ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (137ms)
+				TypeCache.Initialize (137ms)
+					TypeCache.ScanAssembly (135ms)
+				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (249ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (9ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,50 +111,50 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.282 seconds
-Refreshing native plugins compatible for Editor in 12.62 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 20.81 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.751 seconds
+- Finished resetting the current domain, in  0.713 seconds
 Domain Reload Profiling:
-	ReloadAssembly (252ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (234ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (29ms)
-		LoadAllAssembliesAndSetupDomain (1026ms)
-			LoadAssemblies (416ms)
+		LoadAllAssembliesAndSetupDomain (892ms)
+			LoadAssemblies (365ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (667ms)
-				TypeCache.Initialize (347ms)
-					TypeCache.ScanAssembly (340ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (577ms)
+				TypeCache.Initialize (299ms)
+					TypeCache.ScanAssembly (292ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (617ms)
+			SetupLoadedEditorAssemblies (581ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (4ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (366ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (346ms)
+				ProcessInitializeOnLoadMethodAttributes (136ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
-Failed to load shader (instanceID 436, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 434, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Failed to load shader (instanceID 436, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 21.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 19.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (58.9 KB). Loaded Objects now: 595.
-Memory consumption went from 85.3 MB to 85.2 MB.
-Total: 9.114400 ms (FindLiveObjects: 0.102400 ms CreateObjectMapping: 0.009600 ms MarkObjects: 8.898300 ms  DeleteObjects: 0.102200 ms)
+Unloading 204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (405.1 KB). Loaded Objects now: 710.
+Memory consumption went from 119.3 MB to 118.9 MB.
+Total: 8.134900 ms (FindLiveObjects: 0.075500 ms CreateObjectMapping: 0.010100 ms MarkObjects: 7.768100 ms  DeleteObjects: 0.278900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -170,22 +170,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 135194.588787 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c328eaa686ea6ec9a8a9505cc07a90') in 0.002701 seconds 
+  Time since last request: 154615.637236 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab
+  artifactKey: Guid(d0a0bad0f2561674f85b5a72c1eb19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Church.prefab using Guid(d0a0bad0f2561674f85b5a72c1eb19b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f27229751d27cc1d8cbd3867183e0aa') in 0.337941 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 199.746956 seconds.
-  path: Assets/image/Inventory/Gun.png
-  artifactKey: Guid(079df2efd225fa346bed82a117ae043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Inventory/Gun.png using Guid(079df2efd225fa346bed82a117ae043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83889008083f6086aee56e00f5d4c4d1') in 0.107722 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallCorner.prefab
+  artifactKey: Guid(78c5bede736cca04ea483d26c7811ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWallCorner.prefab using Guid(78c5bede736cca04ea483d26c7811ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd706cbbba722bd80444e454b902b63d') in 0.210610 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab
+  artifactKey: Guid(5ff647d15160e7e42917b3e338c66c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_6.prefab using Guid(5ff647d15160e7e42917b3e338c66c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dee797411e71f78b1820a4ee10936c8') in 0.027991 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/ShoreRock.prefab
+  artifactKey: Guid(5a7e024a4b80fb1478d3f46d37137bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/ShoreRock.prefab using Guid(5a7e024a4b80fb1478d3f46d37137bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13df3856d3abbe5a847e2f6c131922e6') in 0.042073 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Lighthouse.prefab
+  artifactKey: Guid(d362e56f7a8edcf449cea294c0e6acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Lighthouse.prefab using Guid(d362e56f7a8edcf449cea294c0e6acff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ecac3fbfb1a3c2bdbc93457722b619') in 0.024165 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_3.prefab
+  artifactKey: Guid(6c8d046662436564eb5afcf4e9caaf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_3.prefab using Guid(6c8d046662436564eb5afcf4e9caaf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f8c006b0c4537b106fb3070e61bcf7') in 0.024221 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab
+  artifactKey: Guid(57b13a00f04105d47af5e0707fffd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Foliage_2.prefab using Guid(57b13a00f04105d47af5e0707fffd244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9b65a581e832c1163fa34ad576c787') in 0.314501 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_7.prefab
+  artifactKey: Guid(14db1ccf5b7890b499bfd6c79b3bf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_7.prefab using Guid(14db1ccf5b7890b499bfd6c79b3bf46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ef383745b55de56e5389f488f46ba3') in 0.024092 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab
+  artifactKey: Guid(f2b055ed15f48bd4793c0d0ef6185ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab using Guid(f2b055ed15f48bd4793c0d0ef6185ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daf104348c0eebbe8908c2f9ee029a7') in 0.027883 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab
+  artifactKey: Guid(a7eb417a6c9b1d94aa4238bd72633934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverWall.prefab using Guid(a7eb417a6c9b1d94aa4238bd72633934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67d2adf92d0fa885bd18a2eeb60e240') in 0.024706 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverBridge.prefab
+  artifactKey: Guid(5bf57647fe46deb40a2b6a3b57e4c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/RiverBridge.prefab using Guid(5bf57647fe46deb40a2b6a3b57e4c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bcfc0df09079383241052206805740') in 0.021277 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab
+  artifactKey: Guid(9552a629a90d25c41bc7836cad49268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Prefabs/Parasol.prefab using Guid(9552a629a90d25c41bc7836cad49268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd99a6b5fbef6cbdfed779b86cf3124b2') in 0.031647 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 5.720782 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/HightTower.prefab
+  artifactKey: Guid(4e4da7cae3fc6744e8deba559924ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/HightTower.prefab using Guid(4e4da7cae3fc6744e8deba559924ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8010c10318ea89fce7a539d7af57ec') in 0.015657 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/Ramp.prefab
+  artifactKey: Guid(251ce8703413b4a4eb50b361975cd549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/Ramp.prefab using Guid(251ce8703413b4a4eb50b361975cd549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110f489c5b66507100dcc65e263e1970') in 0.018320 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/SmallPhylar.prefab
+  artifactKey: Guid(866971d15d558a046b49b2ece87df8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/SmallPhylar.prefab using Guid(866971d15d558a046b49b2ece87df8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef8fb180005c6b03fdabdfb8803b14c') in 0.022312 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/StoneBridgeFlat.prefab
+  artifactKey: Guid(2b651b5f505f7e945b2e3f8bb7abc4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/StoneBridgeFlat.prefab using Guid(2b651b5f505f7e945b2e3f8bb7abc4ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522aeabf21976ee6364594c3e4bf4439') in 0.019501 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/WallTower.prefab
+  artifactKey: Guid(b6d5c0a31f0b4ec4b935e5b123710738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/WallTower.prefab using Guid(b6d5c0a31f0b4ec4b935e5b123710738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585437eb0a2bbf49d2d0ed070d0a2f25') in 0.016765 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/WallEntranceAndExit.prefab
+  artifactKey: Guid(972bc78f7822b3f4b8c2d2536cb64fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/WallEntranceAndExit.prefab using Guid(972bc78f7822b3f4b8c2d2536cb64fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1cc4b63aadfb3f88e49830973ce917') in 0.045885 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/StoneBridge.prefab
+  artifactKey: Guid(80fc0e14d5ce1b6418b34994b1b740af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/StoneBridge.prefab using Guid(80fc0e14d5ce1b6418b34994b1b740af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb6303c182d2fdcbfb1cf3973177dce') in 0.014636 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets de la map/CastlePack/Prefabs/StoneBridgeEntry.prefab
+  artifactKey: Guid(d3b67e77572425c43aacb6760ffcf5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/Prefabs/StoneBridgeEntry.prefab using Guid(d3b67e77572425c43aacb6760ffcf5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1e03991eaf7aee46f097f108b3def8') in 0.026645 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9

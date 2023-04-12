@@ -54,10 +54,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
-    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
-    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
-    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -352,14 +348,23 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -372,15 +377,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
