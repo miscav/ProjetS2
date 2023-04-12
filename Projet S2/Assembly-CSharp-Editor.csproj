@@ -54,28 +54,26 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
+    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
+    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
+    <Analyzer Include="C:\Users\staba\ProjetS2\Projet S2\Assets\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Assets\BrokenVector\LowPolyBrickHouses\Editor\ModelCustomizerInspector.cs" />
-    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
-    <Compile Include="Assets\Assets\RobotSphere\Assets\Scripts\Editor\RobotFreeAnimEditor.cs" />
-    <Compile Include="Assets\Assets\EmaceArt\Slavic World Free\Editor\WelcomeWindow.cs" />
-    <Compile Include="Assets\Assets\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
+    <Compile Include="Assets\Assets de la map\Blink\Art\Characters\LowPoly\Editor\MaterialTilingOffset.cs" />
+    <Compile Include="Assets\Assets de la map\BrokenVector\LowPolyBrickHouses\Editor\ModelCustomizerInspector.cs" />
+    <Compile Include="Assets\Assets de la map\RobotSphere\Assets\Scripts\Editor\RobotFreeAnimEditor.cs" />
+    <Compile Include="Assets\Assets de la map\EmaceArt\Slavic World Free\Editor\WelcomeWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
-    <None Include="Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt" />
-    <None Include="Assets\Assets\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt" />
-    <None Include="Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
-    <None Include="Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
-    <None Include="Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
-    <None Include="Assets\Assets\Editor (2)\Editor\MediationAdapterDependencies.xml" />
-    <None Include="Assets\Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
-    <None Include="Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
-    <None Include="Assets\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
-    <None Include="Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
+    <None Include="Assets\Assets de la map\MobileDependencyResolver\Editor\Google.IOSResolver.dll" />
+    <None Include="Assets\Assets de la map\MobileDependencyResolver\Editor\mobile-dependency-resolver.txt" />
+    <None Include="Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll" />
+    <None Include="Assets\Assets de la map\Editor (2)\Editor\MediationAdapterDependencies.xml" />
+    <None Include="Assets\Assets de la map\MobileDependencyResolver\Editor\Google.JarResolver.dll" />
+    <None Include="Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandler.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -351,17 +349,8 @@
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl">
-      <HintPath>Assets\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Assets\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
@@ -371,12 +360,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>Assets\Assets\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
@@ -389,6 +372,15 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>Assets\Assets de la map\MobileDependencyResolver\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -923,46 +915,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{04BCDD7F-3853-F842-CF20-D95EAF00ACF1}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{73B367EA-05B2-A8D8-B08E-DB0F8EFBCBD8}</Project>
-      <Name>PhotonUnityNetworking.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{AF79F312-2D2A-5107-92BA-768DF7720FDB}</Project>
-      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{6C9CFBFC-3E75-E076-C62E-6B08D4805B77}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonChat.csproj">
-      <Project>{FA98FD26-C1A2-BD2F-D042-1EB65F1D7FD4}</Project>
-      <Name>PhotonChat</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{428A4368-C1BA-59B6-90A2-2B351EC74EDF}</Project>
-      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{FD49EA96-B683-E929-44D9-FD1EE7F1E671}</Project>
-      <Name>PhotonUnityNetworking</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{285F045D-A2CD-1867-186F-80AA1C96742C}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{90E585D5-C6EE-7F3D-B283-9F1C60FE67B8}</Project>
-      <Name>PhotonUnityNetworking.Utilities</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{D15F8C6B-2884-E40F-E252-843093C0E7A7}</Project>
-      <Name>PhotonRealtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{A0A1C074-B8D4-5838-6AE1-8AB53B60F1AF}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
