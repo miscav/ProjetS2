@@ -1,0 +1,433 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.5f1 (551d45108343) revision 5578053'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'fr' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/vicma/Documents/Epita/ProjetS2/Projet S2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53240
+Successfully changed project path to: C:/Users/vicma/Documents/Epita/ProjetS2/Projet S2
+C:/Users/vicma/Documents/Epita/ProjetS2/Projet S2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13840] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 3523109626 [EditorId] 3523109626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CLJNPC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13840] Host "[IP] 192.168.0.22 [Port] 0 [Flags] 2 [Guid] 3523109626 [EditorId] 3523109626 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CLJNPC3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 25.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.5f1 (551d45108343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/vicma/Documents/Epita/ProjetS2/Projet S2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   NVIDIA
+    VRAM:     5958 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006683 seconds.
+- Loaded All Assemblies, in  0.425 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 354 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (231ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+				TypeCache.Initialize (184ms)
+					TypeCache.ScanAssembly (181ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (650ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (466ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025C55380420 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54F2AE70 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54F2AE70 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleMacosStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54F2AE70 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Analytics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55380420 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.Stores.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55380420 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55397030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Environments.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Networking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PunDemos.DemoSlotcarEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55085E50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53DFB240 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55085E50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55085E50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5564DC20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonChat.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Scheduler.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55134C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5564DC20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5564DC20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5564DC20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55085E50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5564DC20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.Culling.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53890530 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538B3540 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53E04C50 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Mediation.Adapters.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53E09060 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53E09060 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PlayServicesResolver.Installer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545BD0C0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.Demos.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545BD0C0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonUnityNetworking.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54331ED0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEditor.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545BD0C0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C543664F0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54378300 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54378300 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.AppleCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55ACF430 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5437E910 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.WinRTCore.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55AE5240 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Mediation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54431010 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542AFEA0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Internal.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54431010 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Device.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53EE9B30 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Threading.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C55B0F860 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54431010 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54431010 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C545C36D0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5447DE20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Telemetry.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C538DC950 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Purchasing.Common.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C554A6E20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5447DE20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PhotonRealtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C5447DE20 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C554C7030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54497030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Analytics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C554C7030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54497030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C54497030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C554C7030 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PlayServicesResolver.Utils.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53C38DD0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53C38DD0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Mediation.Build.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Services.Core.Configuration.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C542CB6B0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\PunDemos.DemoHubEditor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53C423E0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025C53C593F0 doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\ScriptAssemblies\Unity.Mediation.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\vicma\Documents\Epita\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.481 seconds
+Refreshing native plugins compatible for Editor in 20.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (267ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		LoadAllAssembliesAndSetupDomain (1209ms)
+			LoadAssemblies (528ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (745ms)
+				TypeCache.Initialize (386ms)
+					TypeCache.ScanAssembly (378ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (376ms)
+				ProcessInitializeOnLoadMethodAttributes (173ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Failed to load shader (instanceID 424, GUID dd89cf5b9246416f84610a006f916af7)
+Failed to load shader (instanceID 428, GUID 14eb328de4b8eb245bb7cea29e4ac00b)
+Failed to load shader (instanceID 410, GUID 68e6db2ebdc24f95958faec2be5558d6)
+Failed to load shader (instanceID 402, GUID 953d6c4c7f7ec324d860efb0db9c68ff)
+Failed to load shader (instanceID 404, GUID bc1ede39bf3643ee8e493720e4259791)
+Failed to load shader (instanceID 398, GUID fe393ace9b354375a9cb14cdbbc28be4)
+Failed to load shader (instanceID 420, GUID 098d4ffc7d7b82d4db28426a03a46477)
+Failed to load shader (instanceID 418, GUID cf81c85f95fe47e1a27f6ae460cf182c)
+Failed to load shader (instanceID 400, GUID 5fdc362fc1115e146b9261baf094712a)
+Failed to load shader (instanceID 436, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 426, GUID 48bb5f55d8670e349b6e614913f9d910)
+Failed to load shader (instanceID 414, GUID 85187c2149c549c5b33f0cdb02836b17)
+Failed to load shader (instanceID 432, GUID 128e987d567d4e2c824d754223b3f3b0)
+Failed to load shader (instanceID 408, GUID f7ada0af4f174f0694ca6a487b8f543d)
+Failed to load shader (instanceID 416, GUID a02a7d8c237544f1962732b55a9aebf1)
+Failed to load shader (instanceID 430, GUID c8d12adcee749c344b8117cf7c7eb912)
+Failed to load shader (instanceID 422, GUID 1e3b057af24249748ff873be7fafee47)
+Failed to load shader (instanceID 406, GUID a97e290cd0cec1a4cb176e474e69c1dc)
+Failed to load shader (instanceID 412, GUID 83a2a9b75b9386c4682154ce79367fde)
+Failed to load shader (instanceID 434, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 19.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8 unused Assets / (61.6 KB). Loaded Objects now: 523.
+Memory consumption went from 72.8 MB to 72.7 MB.
+Total: 7.727500 ms (FindLiveObjects: 0.067300 ms CreateObjectMapping: 0.005600 ms MarkObjects: 7.434900 ms  DeleteObjects: 0.218100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57559.087421 seconds.
+  path: Assets/Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Buff.fbx
+  artifactKey: Guid(20349140a3cb83e4d883e1456c7783d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Buff.fbx using Guid(20349140a3cb83e4d883e1456c7783d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8ae0a55d0fe3ce19b857cf5e3ae5d') in 0.002928 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Resources/EA03.fbx
+  artifactKey: Guid(581c41b07e405124daec580ae7109aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Resources/EA03.fbx using Guid(581c41b07e405124daec580ae7109aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fcd33b1e03ebb3618f35017b8bf94c') in 0.001314 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab
+  artifactKey: Guid(24a5f7c212479624ba65a0ad94f34342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Chair.prefab using Guid(24a5f7c212479624ba65a0ad94f34342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ff6cce234a2aacfeeeda41c66bf853') in 0.003185 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6Merged.fbx
+  artifactKey: Guid(bfcfd1c1f1a553f4dbdd4ae37bfc3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CastlePack/FBX/CornerWalls/CornerWallLvl6Merged.fbx using Guid(bfcfd1c1f1a553f4dbdd4ae37bfc3253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7c93e7c40aaeafb16f7b0aa897f174') in 0.001226 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Demo Intro UI.prefab
+  artifactKey: Guid(f773d1fa10a4f4e0d88490eab5d5b46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Prefabs/Demo Intro UI.prefab using Guid(f773d1fa10a4f4e0d88490eab5d5b46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317bcd31b1d180e51ac4ffdb0772b5e2') in 0.032837 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Env_Rock_Slice_01a.fbx
+  artifactKey: Guid(2b73a147fba04f14aaaeb246cb195843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Env_Rock_Slice_01a.fbx using Guid(2b73a147fba04f14aaaeb246cb195843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873d2d59bb36294eab38b1bc888d9e8d') in 0.001086 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl1Merged.prefab
+  artifactKey: Guid(4ac69342467d16747a58e725fb68e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/CastlePack/Prefabs/CornerWalls/CornerWallLvl1Merged.prefab using Guid(4ac69342467d16747a58e725fb68e2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790c6838af8834aa8c9972df30ab39a7') in 0.000830 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRockBroken.fbx
+  artifactKey: Guid(2b39041fe0bd9a74f83447d7fcc06e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRockBroken.fbx using Guid(2b39041fe0bd9a74f83447d7fcc06e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966e11b240280200839a811b5a6e8555') in 0.000686 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Prefabs/Catherine.prefab
+  artifactKey: Guid(ed4137f40b25dc043971914560098d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Prefabs/Catherine.prefab using Guid(ed4137f40b25dc043971914560098d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94a7aacf3265732cf9435aefd046fb1') in 0.123784 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 171
