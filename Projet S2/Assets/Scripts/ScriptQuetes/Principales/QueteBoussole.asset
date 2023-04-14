@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: QueteBoussole
   m_EditorClassIdentifier: 
   RewardItem: {fileID: 0}
-  RewardMoney: 0
+  RewardMoney: 50
   text: BOUSSOLE QUOICOUBAE
   Requis: 1

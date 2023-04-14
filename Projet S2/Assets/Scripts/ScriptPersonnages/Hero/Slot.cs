@@ -18,6 +18,6 @@ public class Slot : MonoBehaviour
 
     public void Use()
     {
-        Player.GetComponent<Player>().Eat(Item);
+        Player.GetComponent<Player>().Eat(Item); 
     }
 }

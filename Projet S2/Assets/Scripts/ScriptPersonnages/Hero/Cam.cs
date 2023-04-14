@@ -34,8 +34,30 @@ public class Cam : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    Text.GetComponentInChildren<Text>().text = QueteVise.quete.Peek().text;
-                    Text.SetActive(true);
+                    if(QueteVise.quete.Count > 0)
+                    {
+                        if(QueteManagement.QuetesActuelle != null)
+                        {
+                            if(QueteManagement.QuetesActuelle == QueteVise.quete.Peek())
+                            {
+                                Text.GetComponentInChildren<Text>().text = "As tu fini la quete ?";
+                                Text.SetActive(true);
+                            }
+                            else
+                            {
+                                Debug.Log("Quete déjà en cours !");
+                            }
+                        }
+                        else
+                        {
+                            Text.GetComponentInChildren<Text>().text = QueteVise.quete.Peek().text;
+                            Text.SetActive(true);
+                        }
+                    }
+                    else
+                    {
+                        Debug.Log("Plus de quetes disponibles");
+                    }
                 }
             }
             else
@@ -58,6 +80,7 @@ public class Cam : MonoBehaviour
                 if (((Principale)QueteVise.quete.Peek()).Requis == 0)
                 {
                     QuetesAcheve++;
+                    QueteVise.Reussi();
                 }
                 else if(((Principale)QueteVise.quete.Peek()).Requis == QuetesAcheve)
                 {
@@ -73,8 +96,15 @@ public class Cam : MonoBehaviour
         }
         else
         {
+            // tester les requis de la quetes
+
+            // si c'est bon 
+            // -> QueteVise.Reussi();
+
+            // sinon 
+            // -> afficher que c'est pas bon
+            
             Close();
-            Debug.Log("Vous avez deja une mission en cours !");
         }
     }
 
