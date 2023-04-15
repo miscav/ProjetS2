@@ -1,0 +1,701 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.5f1 (551d45108343) revision 5578053'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'fr' Physical Memory: 15720 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/staba/ProjetS2/Projet S2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63432
+Successfully changed project path to: C:/Users/staba/ProjetS2/Projet S2
+C:/Users/staba/ProjetS2/Projet S2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28612] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3100562917 [EditorId] 3100562917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28612] Host "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 3100562917 [EditorId] 3100562917 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ETVF3KA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 25.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.5f1 (551d45108343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/staba/ProjetS2/Projet S2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.2756
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008853 seconds.
+- Loaded All Assemblies, in  0.391 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (224ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+				TypeCache.Initialize (154ms)
+					TypeCache.ScanAssembly (152ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\staba\ProjetS2\Projet S2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.347 seconds
+Refreshing native plugins compatible for Editor in 15.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (287ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		LoadAllAssembliesAndSetupDomain (1057ms)
+			LoadAssemblies (439ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+				TypeCache.Initialize (381ms)
+					TypeCache.ScanAssembly (373ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (715ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 13.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4330 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (410.7 KB). Loaded Objects now: 4786.
+Memory consumption went from 0.67 GB to 0.67 GB.
+Total: 11.098500 ms (FindLiveObjects: 0.411800 ms CreateObjectMapping: 0.374500 ms MarkObjects: 9.657800 ms  DeleteObjects: 0.652200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 196481.688452 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001718 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.272464 seconds.
+  path: Assets/Assets pour cabane pecheur + champ
+  artifactKey: Guid(c16722936a0d4214995e790fcb9c099e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ using Guid(c16722936a0d4214995e790fcb9c099e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84acc71d04dfe95827413dbe248fe80') in 0.000881 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 72.110762 seconds.
+  path: Assets/Alstra Infinite
+  artifactKey: Guid(618f81bd5e3f85843b80d4b94f988b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite using Guid(618f81bd5e3f85843b80d4b94f988b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc33e31b391b720ecd8ec1f7db4ebe3') in 0.000486 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.614435 seconds.
+  path: Assets/Dynamic Grass FX
+  artifactKey: Guid(779576e453170294a997b51a4edd7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dynamic Grass FX using Guid(779576e453170294a997b51a4edd7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6116271b0a9f03837ac5246365127839') in 0.000497 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.586585 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly
+  artifactKey: Guid(30a253fd0f5ed18439a70f40171bb882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly using Guid(30a253fd0f5ed18439a70f40171bb882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632f73f0db6211f7c2601881a0eeac33') in 0.000883 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.418264 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs
+  artifactKey: Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs using Guid(011107e2e56b7e54488ec07820f78cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180515d88c06c0509f88deeb92554f2b') in 0.000527 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053794 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs/Fisher_Boat.prefab
+  artifactKey: Guid(e505ad6aa92b701429ccea3dac7fece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs/Fisher_Boat.prefab using Guid(e505ad6aa92b701429ccea3dac7fece1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c6ebea23742022da2c4f20e308d138') in 0.128544 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs/Speed_Boat.prefab
+  artifactKey: Guid(aa70f82ba6bc4e64f8b9d77004fde085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Prefabs/Speed_Boat.prefab using Guid(aa70f82ba6bc4e64f8b9d77004fde085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0037b9602abf34107cc856bd27c0f617') in 0.028103 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 74.058086 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/BigBarn.fbx
+  artifactKey: Guid(f486eee104469734e83f5f6c7bc92158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/BigBarn.fbx using Guid(f486eee104469734e83f5f6c7bc92158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7e2d43a622eee99fc40c076f9f99db') in 0.095957 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/SmallBarn.fbx
+  artifactKey: Guid(643bd0aec74034a47a7771b1753d9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/SmallBarn.fbx using Guid(643bd0aec74034a47a7771b1753d9766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0779ed07e9fae94a3035ebfb41147ed') in 0.089766 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Rock3.fbx
+  artifactKey: Guid(81c6e5f7e61e52446b33128b147440d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Rock3.fbx using Guid(81c6e5f7e61e52446b33128b147440d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dc43611d38d7bd50d57a9ed326951d') in 0.036674 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Sheep.fbx
+  artifactKey: Guid(ad4854454fd34d345a112f4aa9b4deb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Sheep.fbx using Guid(ad4854454fd34d345a112f4aa9b4deb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bcfe31bbd683581788d9cc25cedaaa') in 0.043463 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Rock2.fbx
+  artifactKey: Guid(3e85d9891ad302246867f0a66ebedf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Rock2.fbx using Guid(3e85d9891ad302246867f0a66ebedf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a6e97df0b6967490a7e4163e0c66b8') in 0.022476 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/ChickenCoop.fbx
+  artifactKey: Guid(9ca3fb8689af8284c9f2d8b808038af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/ChickenCoop.fbx using Guid(9ca3fb8689af8284c9f2d8b808038af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9de20b9d947d57d8ce27424f39bbf1') in 0.026001 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Silo_House.fbx
+  artifactKey: Guid(9b5b73540d32fcb4d82b0819970651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Silo_House.fbx using Guid(9b5b73540d32fcb4d82b0819970651b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b73b2f3709ef9668050f0826ff411e') in 0.028504 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 45.584772 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Black.mat
+  artifactKey: Guid(0dce6e0df85af7f46bf65d1fce4653bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Black.mat using Guid(0dce6e0df85af7f46bf65d1fce4653bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3042a35f55dcf49c7d84668bdbf3265d') in 0.030440 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Leaves.mat
+  artifactKey: Guid(4da58e0ec3246864fa6f4f0aba50acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Leaves.mat using Guid(4da58e0ec3246864fa6f4f0aba50acb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787d465f76253ca8ea45459af5d87e09') in 0.017583 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/LightBrown.mat
+  artifactKey: Guid(e0b1b8212b3efd342bacf52bb258578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/LightBrown.mat using Guid(e0b1b8212b3efd342bacf52bb258578f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53965aceb98da6eee58bb1a3c59b59a5') in 0.017988 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/White.mat
+  artifactKey: Guid(680495834701d1d4bbebbd35884dec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/White.mat using Guid(680495834701d1d4bbebbd35884dec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4671882ee805de9ccf7d5a6aba407800') in 0.014603 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkGrey.mat
+  artifactKey: Guid(07aac4f6b9e23f2418820d5c1cc25e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkGrey.mat using Guid(07aac4f6b9e23f2418820d5c1cc25e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e2ec2bccf74e93e3c8e15e0fd750c0') in 0.015103 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/LightRed.mat
+  artifactKey: Guid(9e661440cb2b4d34a8347971d389b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/LightRed.mat using Guid(9e661440cb2b4d34a8347971d389b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcae911d2d83dbea098a7bae33c222f0') in 0.015391 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkRed.mat
+  artifactKey: Guid(1f40e0392f2bcbc4babcc486e7309baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkRed.mat using Guid(1f40e0392f2bcbc4babcc486e7309baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b9c89002755eff0368217fc27ddd0') in 0.020628 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Material.003.mat
+  artifactKey: Guid(d1157caf23d28a647a756cef821810ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/Material.003.mat using Guid(d1157caf23d28a647a756cef821810ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317c26648d5065aff658b89de8255e7e') in 0.017220 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkBrown.mat
+  artifactKey: Guid(abddb1b7c7733014ebca14cf2905fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Demo/Models/Materials/DarkBrown.mat using Guid(abddb1b7c7733014ebca14cf2905fe06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d6d641c93c9dcbf3f33c2ca3c00bfb') in 0.015399 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.350770 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Shaders/Helpers.cginc
+  artifactKey: Guid(30a9cd0221caaa143a49621454eb5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Dynamic Grass FX/Shaders/Helpers.cginc using Guid(30a9cd0221caaa143a49621454eb5492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf727c3362b28edf6645b6cd3da11c03') in 0.001172 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.972687 seconds.
+  path: Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx
+  artifactKey: Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_closed_StopRoll.fbx using Guid(a04d47ebf8b64cc4a94b13a384a37882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a446270642f76c5829428083765487f') in 0.309875 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx
+  artifactKey: Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_cloed_Roll_Loop.fbx using Guid(a39d150aebfb4ce449f4a4f23709b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293849a321dd4ddaf4b93d22251e072d') in 0.228730 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx
+  artifactKey: Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_Idle_Loop_S.fbx using Guid(52ad55bee0260b64da664da407ed38b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10f891c3f49adbcd6f5c08c26ae2974') in 0.195857 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 1.235602 seconds.
+  path: Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx
+  artifactKey: Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_open.fbx using Guid(ecb6e102166bfcf47b9206c2f8297fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66173243afadf726759cfad8f1c9925c') in 0.233749 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx
+  artifactKey: Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/RobotSphere/Assets/Models/Animation/robotSphere@anim_open_GoToRoll.fbx using Guid(f2fc0388a7c562e4fa0d179ac93423ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ada7ccebfc3f8b6ce61536ec32c23d') in 0.211966 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 268
+========================================================================
+Received Import Request.
+  Time since last request: 0.374907 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/WallEntranceAndExit.fbx
+  artifactKey: Guid(a00759ab681491d4cb539a7c123b6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/WallEntranceAndExit.fbx using Guid(a00759ab681491d4cb539a7c123b6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1371fb3f37ee7177418aca8642ab616a') in 0.047027 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/WallGateHarrowDuble.fbx
+  artifactKey: Guid(1d560592d2d3de84db4c067ab00a65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/WallGateHarrowDuble.fbx using Guid(1d560592d2d3de84db4c067ab00a65b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88be56ba3e6f4b96ca868b548696d104') in 0.040647 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.317806 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae
+  artifactKey: Guid(210b25fa5e334f74f87c05db00ca2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/House-1-1.dae using Guid(210b25fa5e334f74f87c05db00ca2e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92564875ac2f3220dc4d805d6bc4d720') in 0.087697 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 2.716463 seconds.
+  path: Assets/Assets de la map/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx
+  artifactKey: Guid(adf81115af100254389734482bab2b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/MaximeBrunoni/BridgesPack/Art/Meshes/BridgeRock.fbx using Guid(adf81115af100254389734482bab2b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14359ed4af8ef3fbcd2af2f0ace1fc2e') in 0.183664 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_01c.fbx
+  artifactKey: Guid(e360f9142d27d0445abc192c6bc54b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_01c.fbx using Guid(e360f9142d27d0445abc192c6bc54b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '405c0c1952253e1c1e6a71afa985cbd6') in 0.065699 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/RiverWallStairs.dae
+  artifactKey: Guid(8ba69f714428f5748b29c01882b6643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/RiverWallStairs.dae using Guid(8ba69f714428f5748b29c01882b6643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2990b25c8d64915d15c54ac1c67e6234') in 0.017507 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae
+  artifactKey: Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/RiverWallCorner.dae using Guid(523b40a37bb96154d9b7eaa01c7d3501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef12408f7ce10dedf62d22cd2cc0a9f9') in 0.020300 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01d.fbx
+  artifactKey: Guid(7fe480ce6a490174a961d9d0ac9efc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_House_Shutter_01d.fbx using Guid(7fe480ce6a490174a961d9d0ac9efc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e0a5173653c26fc6b40e7517c49a64') in 0.052032 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets de la map/Free_Rocks/_models/rock1_collider.fbx
+  artifactKey: Guid(ef4dd147aed784fc2968d63b72857249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/Free_Rocks/_models/rock1_collider.fbx using Guid(ef4dd147aed784fc2968d63b72857249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b16f7c0cbadf9c83df3b0ad9f7ce0fe') in 0.021713 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01a.fbx
+  artifactKey: Guid(28bb2f61c4769874e999b44b978954fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Roof_Cut_01a.fbx using Guid(28bb2f61c4769874e999b44b978954fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15130327827fd7a65a3a4051c4389b68') in 0.064118 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_03d.fbx
+  artifactKey: Guid(8842acf12ee642143b6d60fe1e0e0054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_03d.fbx using Guid(8842acf12ee642143b6d60fe1e0e0054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0452b7d4fcf2103254b2e2994c98d400') in 0.049332 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx
+  artifactKey: Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Tool_Basket_01.fbx using Guid(4ccd36a85ba57a74eb8759860c7b3871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a23674e15ca44a9a677dd87aa9a882') in 0.048976 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bowl_01.fbx
+  artifactKey: Guid(379f0651a43088c4e83e0b80e5982d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Bowl_01.fbx using Guid(379f0651a43088c4e83e0b80e5982d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c9e612204233a68ebb5156ed8eb813') in 0.063101 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/House-1-2.dae
+  artifactKey: Guid(3c8ca546276c2614285d0e021f3266a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/BrokenVector/LowPolyBrickHouses/Models/House-1-2.dae using Guid(3c8ca546276c2614285d0e021f3266a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10eee47826389ab6de5eac371943a5f7') in 0.083449 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type4 05.dae
+  artifactKey: Guid(05f4a294fb6ca7e4c87b33948d1ebec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type4 05.dae using Guid(05f4a294fb6ca7e4c87b33948d1ebec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29222b7610350df2319718570167a01b') in 0.024625 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type5 01.dae
+  artifactKey: Guid(dfc73e1f73ca4d64da934fb2dcb38e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type5 01.dae using Guid(dfc73e1f73ca4d64da934fb2dcb38e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37766d84a95ec0602594c8a7f509051') in 0.017308 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type6 03.dae
+  artifactKey: Guid(f6e7f2100b2c5544d94468d977d66b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/Arbres foret/LowPolyTreePack/Models/Tree Type6 03.dae using Guid(f6e7f2100b2c5544d94468d977d66b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8832cafa65f236d260c61c4ce1ba799') in 0.019856 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx
+  artifactKey: Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Container_Basket_04a.fbx using Guid(f6abdef6e96d7554bab4cae54ac1516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0085a7b46454be752ea2a2bf83a2fce9') in 0.041733 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_CutOutTrees_03.fbx
+  artifactKey: Guid(d6bf3b4fc8215044b9bb595589ac850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Forester_CutOutTrees_03.fbx using Guid(d6bf3b4fc8215044b9bb595589ac850c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0432026079544417a179f7e523d5216') in 0.046739 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/pineForset_MayoGames_free/import/rock_1.fbx
+  artifactKey: Guid(826a6efc20a01ac4f93dd3e55207d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pineForset_MayoGames_free/import/rock_1.fbx using Guid(826a6efc20a01ac4f93dd3e55207d489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7273d36416eb85f5c9d46e3b7c905a2') in 0.019629 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Prop_House_Shutter_01e.fbx
+  artifactKey: Guid(3f5532580310a2d459f769441f1c781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Prop_House_Shutter_01e.fbx using Guid(3f5532580310a2d459f769441f1c781b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c454a9b50ce427efd0a6afbd381454ff') in 0.046730 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/WallGateWithFillar.fbx
+  artifactKey: Guid(dc978d3f235d30146bb26331f6cd6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/WallGateWithFillar.fbx using Guid(dc978d3f235d30146bb26331f6cd6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61958a7be3d4447f5f2c9be3123a4ed6') in 0.023973 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Models/1.2 Version/Wood_BoatV2.fbx
+  artifactKey: Guid(506eed4210c3bb0428d5bd0e644c7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets pour cabane pecheur + champ/Alstra Infinite/Boats LowPoly/Models/1.2 Version/Wood_BoatV2.fbx using Guid(506eed4210c3bb0428d5bd0e644c7aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fafc6518a5670ea40e4b8054789e73f') in 0.023636 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl0Merged.fbx
+  artifactKey: Guid(0708c81c3e586c24a9d23674f014ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl0Merged.fbx using Guid(0708c81c3e586c24a9d23674f014ba59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a80917d12320e5c272b9fc80ccf298') in 0.031596 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl6Merged.fbx
+  artifactKey: Guid(775248a8677100949a75b697d10dbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl6Merged.fbx using Guid(775248a8677100949a75b697d10dbb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88eed0f6ba2fda7583a53eb937a22ebf') in 0.026557 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl0.fbx
+  artifactKey: Guid(3397c5292e3d0e84a9d41fe86f2a64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl0.fbx using Guid(3397c5292e3d0e84a9d41fe86f2a64ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1f8dfa11b56bc1c63685e8b8c8e056') in 0.094528 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl3.fbx
+  artifactKey: Guid(95cdcf61e2e550048b199bbd72aadaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl3.fbx using Guid(95cdcf61e2e550048b199bbd72aadaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d50611239151d6d436caf6794da9a9') in 0.160368 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/items/AddOns/Mg3D_Food/Watermelon.fbx
+  artifactKey: Guid(7977e423937da9b48aac1866c67bb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/items/AddOns/Mg3D_Food/Watermelon.fbx using Guid(7977e423937da9b48aac1866c67bb5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b365732519d04fd6a001e702dfbeb1') in 0.042433 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl3Merged.fbx
+  artifactKey: Guid(9fa2c6aa1d9167b488821d08c57249a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/CornerWalls/CornerWallLvl3Merged.fbx using Guid(9fa2c6aa1d9167b488821d08c57249a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c4b9380f0b710923c5fa3368c5524d') in 0.046195 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl2.fbx
+  artifactKey: Guid(cbba27d40aaad1a49943f20119fe5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl2.fbx using Guid(cbba27d40aaad1a49943f20119fe5d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d9ed358192a08d4e56225946f80977') in 0.246858 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 144
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_03c.fbx
+  artifactKey: Guid(41a4d8c127620cf449a552f8bdfb11cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Nature_Bush_03c.fbx using Guid(41a4d8c127620cf449a552f8bdfb11cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f6775c1aebd556e52083b2a0af2f4e') in 0.057262 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Crate_Under_Ceiling_01b.fbx
+  artifactKey: Guid(25630030e2eaee246b24778a07935e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD3/EA03_Prop_Crate_Under_Ceiling_01b.fbx using Guid(25630030e2eaee246b24778a07935e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75d07cbbdbc25ccb17c3bc2766307c') in 0.050540 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx
+  artifactKey: Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/LOD4/EA03_Village_Hut_Wall_Painted_Side_02c.fbx using Guid(0941fc100f37a6b4babe0bc7ec19a532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e8b914844d4538a8c1e7e1311b57c0') in 0.052713 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl4Merged.fbx
+  artifactKey: Guid(86c71977d6a63dd4cb39ec96e9555f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/CastlePack/FBX/Walls/Walllvl4Merged.fbx using Guid(86c71977d6a63dd4cb39ec96e9555f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1fc19e8770f9409bcf019ce8dd302') in 0.045454 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 8.998314 seconds.
+  path: Assets/Assets de la map/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Lake_Ground_04.fbx
+  artifactKey: Guid(38b178f6a1ea19f4baf761918779b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Lake_Ground_04.fbx using Guid(38b178f6a1ea19f4baf761918779b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e70e6e049755b8b179a082b7169d62') in 0.029552 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.660912 seconds.
+  path: Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02b.fbx
+  artifactKey: Guid(c679b46118ade7b478817aa8b269fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets de la map/EmaceArt/Slavic World Free/Resources/EA03_Plant_Grass_02b.fbx using Guid(c679b46118ade7b478817aa8b269fe4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70731a5afaccab068cc4a3ad4338650') in 0.028590 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

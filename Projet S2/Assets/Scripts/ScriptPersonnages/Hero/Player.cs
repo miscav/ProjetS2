@@ -9,6 +9,9 @@ public class Player : Personnages
     private float run = 1;
     private Vector3 playerVelocity;
     protected float Hungry;
+    public AudioClip sonmarche;
+    public float delaybetweenstep;
+    private float nextPlay;
 
     void Start()
     {
@@ -20,6 +23,7 @@ public class Player : Personnages
         Character = GetComponent<CharacterController>();
         Hungry = 100;
         QueteManagement.player = this;
+        delaybetweenstep = 0.65f;
     }
 
     void Update()
@@ -37,6 +41,13 @@ public class Player : Personnages
         Character.Move(transform.right * move.x * Time.deltaTime * Speed * run);
         Character.Move(transform.forward * move.z * Time.deltaTime * Speed * run);
         ReduiceHungry(Time.deltaTime * run);
+
+        if (move != new Vector3(0,0,0) && Time.time > nextPlay && Character.isGrounded)
+        {
+            nextPlay = Time.time + delaybetweenstep;
+            GetComponent<AudioSource>().PlayOneShot(sonmarche);
+        }
+
 
         // Changes the height position of the player..
         if (Input.GetKeyDown(KeyCode.Space) && Character.isGrounded)

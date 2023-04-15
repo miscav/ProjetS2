@@ -71,6 +71,7 @@
     <Compile Include="Assets\Assets pour cabane pecheur + champ\Dynamic Grass FX\Demo\Scripts\Move.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\son.cs" />
     <Compile Include="Assets\Scripts\ScriptPersonnages\Personnages.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Scripts\ScriptItems\Tools\Tool.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\sound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
