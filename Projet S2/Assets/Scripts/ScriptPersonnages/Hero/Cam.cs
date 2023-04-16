@@ -31,16 +31,24 @@ public class Cam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKeyDown(KeyCode.P))
+        {
+            QuetesAcheve+= 1;
+        }
+
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 3))
         {
             if (hit.collider.gameObject.CompareTag("Quete"))
             {
                 QueteVise = hit.collider.gameObject.GetComponent<QueteManagement>();
-                if(QueteVise == null) 
+                QueteVise.init();
+
+                if(QueteVise.quete == null) 
                 {
                     Debug.Log("soucis");
                 }
+
                 Interaction.SetActive(true);
 
                 if (Input.GetKeyDown(KeyCode.E))

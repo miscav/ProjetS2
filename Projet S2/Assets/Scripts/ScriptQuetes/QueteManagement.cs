@@ -9,11 +9,12 @@ public class QueteManagement : MonoBehaviour
     [SerializeField] public static Quetes QuetesActuelle;
     [SerializeField] public static Player player;
     [SerializeField] public static Inventory inventory;
+    [SerializeField] public bool Init;
 
     private void Start()
     {
+        Init = false;
         QuetesActuelle = null;
-        quete = QuetePNJ.AllQuetes[pnj];
     }
 
     public void Reussi(ItemsData itemToBring)
@@ -26,5 +27,11 @@ public class QueteManagement : MonoBehaviour
         QuetesActuelle = null;
         player.AddBalance(succeed.RewardMoney);
         inventory.Add(succeed.RewardItem);
+    }
+
+    public void init()
+    {
+        quete = Initialisation.AllQuetes[pnj];
+        Init = true;
     }
 }

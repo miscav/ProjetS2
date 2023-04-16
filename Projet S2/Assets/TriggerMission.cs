@@ -8,7 +8,7 @@ public class TriggerMission : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            if(Cam.GetQueteAcheve() == 1 && QueteManagement.QuetesActuelle != null && QueteManagement.QuetesActuelle is Principale)
+            if(Cam.GetQueteAcheve() == 2 && QueteManagement.QuetesActuelle != null && QueteManagement.QuetesActuelle is Principale)
             {
                 QueteManagement.QuetesActuelle.ActionRequise = true;
             } 

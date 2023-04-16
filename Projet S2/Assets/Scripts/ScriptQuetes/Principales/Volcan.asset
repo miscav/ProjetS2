@@ -17,5 +17,5 @@ MonoBehaviour:
   text: "Bienvenue ! Tu dois maintenant r\xE9ussir ce parcours afin de pouvoir continuer
     l'aventure ! Bonne chance !"
   ItemToBring: {fileID: 0}
-  ActionRequise: 0
+  ActionRequise: 1
   Requis: 2

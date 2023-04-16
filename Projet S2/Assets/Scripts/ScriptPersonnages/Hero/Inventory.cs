@@ -56,7 +56,7 @@ public class Inventory : MonoBehaviour
 
     public bool Search(ItemsData item)
     {
-        return Content.Contains(item);
+        return item == null || Content.Contains(item);
     }
 
     public void Remove(ItemsData item) 
