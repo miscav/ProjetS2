@@ -8,15 +8,16 @@ TagManager:
   - Item
   - Chef
   - Quete
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - WhatIsGround
   - Water
   - UI
-  - 
-  - 
+  - Player
+  - WhatIsEnemy
   - 
   - 
   - 

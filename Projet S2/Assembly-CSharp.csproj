@@ -87,6 +87,7 @@
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\ScriptPersonnages\Robots\Marchant.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Scripts\ScriptAI\EnemyData.cs" />
     <Compile Include="Assets\Scripts\ScriptShop\Shop.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -136,6 +137,7 @@
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
     <Compile Include="Assets\Bitgem\StylisedWater\URP\Scripts\Bitgem\VFX\StylisedWater\WaterVolumeBase.cs" />
     <Compile Include="Assets\Scripts\ScriptItems\Armes\Armes.cs" />
+    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\Scripts\ScriptPersonnages\Hero\ActionTrigger.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -143,6 +145,7 @@
     <Compile Include="Assets\Assets pour cabane pecheur + champ\Dynamic Grass FX\Demo\Scripts\Rotate.cs" />
     <Compile Include="Assets\Scripts\ScriptPersonnages\Hero\Inventory.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Scripts\ScriptAI\Enemy Control.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\ScriptItems\Food\Food.cs" />
@@ -206,7 +209,7 @@
     <None Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
-    <None Include="Assets\Assets pour cabane pecheur + champ\Dynamic Grass FX\Grass.shader" />
+    <None Include="Assets\Assets pour cabane pecheur + champ\Dynamic Grass FX\Shaders\Grass.shader" />
     <None Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
     <None Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\Assets de la map\EmaceArt\Slavic World Free\URP_Support\URP Info.txt" />
