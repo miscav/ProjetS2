@@ -37,7 +37,10 @@ public class Cam : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Quete"))
             {
                 QueteVise = hit.collider.gameObject.GetComponent<QueteManagement>();
-
+                if(QueteVise == null) 
+                {
+                    Debug.Log("soucis");
+                }
                 Interaction.SetActive(true);
 
                 if (Input.GetKeyDown(KeyCode.E))
@@ -144,7 +147,7 @@ public class Cam : MonoBehaviour
 
     public void Termine()
     {
-        if(Inventory.instance.Search(QueteManagement.QuetesActuelle.ItemToBring))
+        if(Inventory.instance.Search(QueteManagement.QuetesActuelle.ItemToBring) && QueteManagement.QuetesActuelle.ActionRequise)
         {
             QuetesAcheve++;
             QueteVise.Reussi(QueteManagement.QuetesActuelle.ItemToBring);

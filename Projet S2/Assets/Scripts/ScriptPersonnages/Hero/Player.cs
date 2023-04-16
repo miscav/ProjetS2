@@ -14,9 +14,11 @@ public class Player : Personnages
     public float delaybetweenstep;
     private float nextPlay;
     [SerializeField] private Image Boussole;
+    private bool IsGrounded;
 
     void Start()
     {
+        IsGrounded = false;
         Health = 200f;
         Coordinates = new Vector3(0, 0, 0);
         Speed = 5f;
@@ -59,10 +61,16 @@ public class Player : Personnages
             GetComponent<AudioSource>().PlayOneShot(sonmarche);
         }
 
+        if(Character.isGrounded || IsGrounded) 
+        {
+            IsGrounded = true;
+
+        }
 
         // Changes the height position of the player..
-        if (Input.GetKeyDown(KeyCode.Space) && Character.isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
+            IsGrounded = false;
             playerVelocity.y += -0.7f * Gravity;
         }
 

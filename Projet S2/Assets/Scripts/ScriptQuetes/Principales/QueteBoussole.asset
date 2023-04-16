@@ -17,4 +17,5 @@ MonoBehaviour:
   text: "Voici ma premiere mission qui va beaucoup t'aider. Je te propose d'aller
     chercher une boussole cach\xE9 dans le village."
   ItemToBring: {fileID: 11400000, guid: 60b74351d2e829642b89c4225e9b4a14, type: 2}
+  ActionRequise: 1
   Requis: 1

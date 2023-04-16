@@ -23,4 +23,6 @@ MonoBehaviour:
     des \xE9l\xE9ments n\xE9cessaires \xE0 ta survie tels que de la nourriture ou
     des armes. Les autres qu\xEAtes vont donc te permettre d'obtenir toutes ces pi\xE8ces
     n\xE9cessaires \xE0 la r\xE9paration du b\xE2teau."
+  ItemToBring: {fileID: 0}
+  ActionRequise: 0
   Requis: 0

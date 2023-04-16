@@ -8,4 +8,5 @@ public abstract class Quetes : ScriptableObject
     [SerializeField] public int RewardMoney;
     [SerializeField] public string text;
     [SerializeField] public ItemsData ItemToBring;
+    [SerializeField] public bool ActionRequise;
 }
