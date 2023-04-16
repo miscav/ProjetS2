@@ -54,6 +54,19 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    public bool Search(ItemsData item)
+    {
+        return Content.Contains(item);
+    }
+
+    public void Remove(ItemsData item) 
+    {
+        if(Search(item))
+        {
+            Content.Remove(item);
+        }
+    }
+
     public void Refresh()
     {
         for (int i = 0; i < Content.Count; i++)

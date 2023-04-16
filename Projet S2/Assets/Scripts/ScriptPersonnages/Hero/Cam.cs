@@ -9,7 +9,7 @@ public class Cam : MonoBehaviour
     [SerializeField] Ray ray;
     [SerializeField] GameObject Interaction;
     [SerializeField] GameObject Text;
-    [SerializeField] int QuetesAcheve;
+    [SerializeField] private static int QuetesAcheve;
     [SerializeField] private QueteManagement QueteVise;
     [SerializeField] private GameObject Accepter;
     [SerializeField] private GameObject Refuser;
@@ -88,6 +88,11 @@ public class Cam : MonoBehaviour
         }
     }
 
+    public static int GetQueteAcheve()
+    {
+        return QuetesAcheve;
+    }
+
     public void Accept()
     {
         if (QueteManagement.QuetesActuelle == null)
@@ -97,7 +102,7 @@ public class Cam : MonoBehaviour
                 if (((Principale)QueteVise.quete.Peek()).Requis == 0)
                 {
                     QuetesAcheve++;
-                    QueteVise.Reussi();
+                    QueteVise.Reussi(null);
                 }
                 else if (((Principale)QueteVise.quete.Peek()).Requis == QuetesAcheve)
                 {
@@ -139,6 +144,15 @@ public class Cam : MonoBehaviour
 
     public void Termine()
     {
+        if(Inventory.instance.Search(QueteManagement.QuetesActuelle.ItemToBring))
+        {
+            QuetesAcheve++;
+            QueteVise.Reussi(QueteManagement.QuetesActuelle.ItemToBring);
+        }
+        else
+        {
+            Debug.Log("Vous n'avez pas terminé la quete !");
+        }
         Close();
     }
 

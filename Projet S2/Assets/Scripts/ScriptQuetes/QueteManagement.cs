@@ -16,15 +16,15 @@ public class QueteManagement : MonoBehaviour
         quete = QuetePNJ.AllQuetes[pnj];
     }
 
-    public void Reussi()
+    public void Reussi(ItemsData itemToBring)
     {
+        if(itemToBring != null)
+        {
+            inventory.Remove(itemToBring);
+        }
         Quetes succeed = quete.Dequeue();
         QuetesActuelle = null;
         player.AddBalance(succeed.RewardMoney);
         inventory.Add(succeed.RewardItem);
-    }
-    public void Abandon()
-    {
-        QuetesActuelle = null;
     }
 }

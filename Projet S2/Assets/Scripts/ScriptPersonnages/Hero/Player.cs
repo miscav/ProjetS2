@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Personnages
 {
@@ -12,6 +13,7 @@ public class Player : Personnages
     public AudioClip sonmarche;
     public float delaybetweenstep;
     private float nextPlay;
+    [SerializeField] private Image Boussole;
 
     void Start()
     {
@@ -28,6 +30,15 @@ public class Player : Personnages
 
     void Update()
     {
+        if(Cam.GetQueteAcheve() > 1)
+        {
+            Boussole.gameObject.SetActive(true);
+        }
+        else
+        {
+            Boussole.gameObject.SetActive(false);
+        }
+
         if (Input.GetKey(KeyCode.LeftShift))
         {
             run = 1.5f;
@@ -61,7 +72,8 @@ public class Player : Personnages
 
         run = 1f;
 
-        transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X"), 0) * Time.deltaTime * rotateSpeed);
+        transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X"), 0) * Time.fixedDeltaTime * rotateSpeed);
+        Boussole.transform.Rotate(new Vector3(0, 0, Input.GetAxis("Mouse X")) * Time.deltaTime * rotateSpeed);
     }
 
     public void ReduiceHungry(float hungry)
