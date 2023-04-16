@@ -466,6 +466,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/PlayerStats.cs"
 "Assets/Scripts/ScriptAI/Enemy Control.cs"
 "Assets/Scripts/ScriptAI/EnemyData.cs"
 "Assets/Scripts/ScriptItems/Armes/Armes.cs"
