@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+     public AudioClip sonmort;
+     public AudioClip sondegat;
+    public bool IsAlive;
+     float prochaine;
     [Header("HP")]
     [SerializeField]
     private float maxHealth = 100f;
@@ -41,6 +45,8 @@ public class PlayerStats : MonoBehaviour
         currentHealth = maxHealth;
         currentHunger = maxHunger;
         currentWater = maxWater;
+        prochaine = Time.time;
+        IsAlive = true;
     }
 
     void Update()
@@ -50,6 +56,11 @@ public class PlayerStats : MonoBehaviour
 
     void TakeDamage(float damage, bool overTime = false)
     {
+        if(Time.time > prochaine)
+        {
+            GetComponent<AudioSource>().PlayOneShot(sondegat);
+            prochaine = Time.time + 3;
+        }
         if (overTime)
         {
             currentHealth -= damage * Time.deltaTime;
@@ -59,8 +70,10 @@ public class PlayerStats : MonoBehaviour
             currentHealth -= damage;
         }
 
-        if(currentHealth <= 0)
+        if(currentHealth <= 0 && IsAlive)
         {
+            IsAlive = false;
+            GetComponent<AudioSource>().PlayOneShot(sonmort);
             Debug.Log("Player died");
         }
         UpdateHPbar();

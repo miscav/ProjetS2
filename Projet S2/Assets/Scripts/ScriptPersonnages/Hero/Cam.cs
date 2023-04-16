@@ -15,6 +15,7 @@ public class Cam : MonoBehaviour
     [SerializeField] private GameObject Refuser;
     [SerializeField] private GameObject Terminer;
     [SerializeField] private GameObject Abandonner;
+    public AudioClip sonClic;
 
     void Start()
     {
@@ -41,6 +42,7 @@ public class Cam : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    GetComponent<AudioSource>().PlayOneShot(sonClic);
                     if (QueteVise.quete.Count > 0)
                     {
                         if (QueteManagement.QuetesActuelle != null)
@@ -138,5 +140,10 @@ public class Cam : MonoBehaviour
     public void Termine()
     {
         Close();
+    }
+
+    public void BruitDuBouton()
+    {
+        GetComponent<AudioSource>().PlayOneShot(sonClic);
     }
 }
