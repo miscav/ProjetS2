@@ -17,6 +17,7 @@ public class Inventory : MonoBehaviour
 
     public static Inventory instance;
 
+    
     private void Awake()
     {
         instance = this;
@@ -61,9 +62,13 @@ public class Inventory : MonoBehaviour
 
     public void Remove(ItemsData item) 
     {
-        if(Search(item))
+        if(Search(item) && item != null)
         {
             Content.Remove(item);
+        }
+        else
+        {
+            Debug.Log("objet non trouvé");
         }
     }
 

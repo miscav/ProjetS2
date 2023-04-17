@@ -16,6 +16,10 @@ public class Slot : MonoBehaviour
         Inventory.instance.OpenActionItemPanel(Item);
     }
 
+    public void Destroy()
+    {
+        Inventory.instance.Remove(Item);
+    }
     public void Use()
     {
         Player.GetComponent<Player>().Eat(Item); 
