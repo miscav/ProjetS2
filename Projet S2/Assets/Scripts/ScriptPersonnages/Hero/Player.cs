@@ -15,6 +15,10 @@ public class Player : Personnages
     private float nextPlay;
     [SerializeField] private Image Boussole;
     private bool IsGrounded;
+    public bool ischeated;
+    private float time1;
+    private float time2;
+    private float time3;
 
     void Start()
     {
@@ -28,11 +32,39 @@ public class Player : Personnages
         Hungry = 100;
         QueteManagement.player = this;
         delaybetweenstep = 0.65f;
+        time1 = 0; time2 = 0; time3 = 0;
     }
 
     void Update()
     {
-        if(Cam.GetQueteAcheve() > 1)
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            time1 = Time.time;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha9))
+        {
+            if (time1 != 0 && Time.time - time1 < 2)
+                time2 = Time.time;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha8))
+        {
+            if (time2 != 0 && Time.time - time2 < 2 && time2 > time1)
+                time3 = Time.time;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            if (time3 != 0 && Time.time - time3 < 2 && time3 > time2)
+            {
+                Debug.Log("vous vous désormais cheaté");
+                ischeated = true;
+                Speed = Speed * 4;
+            }
+        }
+
+        if (Cam.GetQueteAcheve() > 1)
         {
             Boussole.gameObject.SetActive(true);
         }
@@ -68,7 +100,7 @@ public class Player : Personnages
         }
 
         // Changes the height position of the player..
-        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && (IsGrounded || ischeated))
         {
             IsGrounded = false;
             playerVelocity.y += -0.7f * Gravity;
