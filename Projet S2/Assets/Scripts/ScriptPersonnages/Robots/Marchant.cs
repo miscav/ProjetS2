@@ -6,11 +6,6 @@ public class Marchant : Personnages
 {
     private Shop _shop;
 
-    public void ShowShop()
-    {
-        _shop.Show();
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +14,6 @@ public class Marchant : Personnages
         Speed = 1f;
         Damages = 0f;
         Bag = new List<Items> { };
-        _shop = new Shop();
     }
 
     // Update is called once per frame

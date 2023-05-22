@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ActionTrigger : MonoBehaviour
 {
-    [SerializeField] public GameObject PickUpPanel;
+    [SerializeField] private GameObject PickUpPanel;
+    [SerializeField] private GameObject ShopPanel;
     [SerializeField] private GameObject Item;
     [SerializeField] private Inventory inventory;
+    private Shop Shopping;
 
     private void Start()
     {
@@ -22,14 +25,27 @@ public class ActionTrigger : MonoBehaviour
             Destroy(Item.transform.gameObject);
             PickUpPanel.SetActive(false);
         }
+
+        if(Input.GetKeyDown(KeyCode.E) && Shopping != null) 
+        {
+            ShopPanel.SetActive(true);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Item"))
         {
+            PickUpPanel.GetComponentInChildren<Text>().text = "Pick Up";
             Item = other.gameObject;
             PickUpPanel.SetActive(true);
+        }
+
+        if (other.CompareTag("Shop"))
+        {
+            PickUpPanel.GetComponentInChildren<Text>().text = "Shopping";
+            PickUpPanel.SetActive(true);
+            Shopping = other.GetComponent<Shop>();
         }
     }
 
@@ -38,6 +54,11 @@ public class ActionTrigger : MonoBehaviour
         if (other.CompareTag("Item"))
         {
             Item = null;
+            PickUpPanel.SetActive(false);
+        }
+
+        if (other.CompareTag("Shop"))
+        {
             PickUpPanel.SetActive(false);
         }
     }
