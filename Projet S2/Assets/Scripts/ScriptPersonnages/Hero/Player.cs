@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,6 +19,8 @@ public class Player : Personnages
     private float time2;
     private float time3;
 
+    public static Player player;
+
     void Start()
     {
         IsGrounded = false;
@@ -33,6 +34,7 @@ public class Player : Personnages
         QueteManagement.player = this;
         delaybetweenstep = 0.65f;
         time1 = 0; time2 = 0; time3 = 0;
+        player = this;
     }
 
     void Update()

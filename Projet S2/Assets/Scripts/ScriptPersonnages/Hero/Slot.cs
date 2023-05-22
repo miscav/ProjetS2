@@ -8,20 +8,26 @@ using UnityEngine.UI;
 public class Slot : MonoBehaviour
 {
     public ItemsData Item;
+    public static ItemsData ItemSelected;
     public Image Visual;
     [SerializeField] private GameObject Player;
 
     public void OnClickSlot()
     {
-        Inventory.instance.OpenActionItemPanel(Item);
+        ItemSelected = Item;
+        Inventory.instance.OpenActionItemPanel(ItemSelected);
     }
 
     public void Destroy()
     {
-        Inventory.instance.Remove(Item);
+        Inventory.instance.Remove(ItemSelected);
     }
     public void Use()
     {
-        Player.GetComponent<Player>().Eat(Item); 
+        Player.GetComponent<Player>().Eat(ItemSelected); 
+    }
+    public void Drop()
+    {
+        Inventory.instance.Drop(ItemSelected);
     }
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class OnTriggerBoat : MonoBehaviour
@@ -10,7 +8,7 @@ public class OnTriggerBoat : MonoBehaviour
     private bool IsIn;
     [SerializeField] public AudioClip reparation;
     private float wintime;
-    private bool isreparate;
+    private bool Repaired;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +16,8 @@ public class OnTriggerBoat : MonoBehaviour
         IsIn= false;
         RepairButton.SetActive(false);
         WinScreen.SetActive(false);
-        wintime= 0;
-        isreparate= false;
+        wintime = 0;
+        Repaired = false;
     }
 
     // Update is called once per frame
@@ -39,7 +37,7 @@ public class OnTriggerBoat : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !isreparate)
+        if (other.CompareTag("Player") && !Repaired)
         {
             RepairButton.SetActive(true);
             IsIn = true;
@@ -61,6 +59,6 @@ public class OnTriggerBoat : MonoBehaviour
         var time = Time.time;
         GetComponent<AudioSource>().PlayOneShot(reparation);
         wintime = Time.time;
-        isreparate = true;
+        Repaired = true;
     }
 }

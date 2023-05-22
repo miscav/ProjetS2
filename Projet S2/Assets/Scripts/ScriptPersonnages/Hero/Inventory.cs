@@ -14,6 +14,7 @@ public class Inventory : MonoBehaviour
     [SerializeField] private GameObject EquipButton;
     [SerializeField] private GameObject RepairButton;
     [SerializeField] private GameObject DestroyButton;
+    [SerializeField] private Sprite Transparent;
 
     public static Inventory instance;
 
@@ -62,14 +63,23 @@ public class Inventory : MonoBehaviour
 
     public void Remove(ItemsData item) 
     {
+        Debug.Log(item.Name);
         if(Search(item) && item != null)
         {
-            Content.Remove(item);
+            Debug.Log(Content.FindIndex(i => i.Name == item.Name));
+            Content.RemoveAt(Content.FindIndex(i => i.Name == item.Name));
+            Refresh();
         }
         else
         {
             Debug.Log("objet non trouvé");
         }
+    }
+
+    public void Drop(ItemsData item)
+    {
+        Remove(item);
+        Instantiate(item.Prefab, Player.player.transform);
     }
 
     public void Refresh()
@@ -79,6 +89,12 @@ public class Inventory : MonoBehaviour
             Slot slot = SlotContent.transform.GetChild(i).GetComponent<Slot>();
             slot.Item = Content[i];
             slot.Visual.sprite = Content[i].Visual;
+        }
+        for (int i = Content.Count; i < 16; i++)
+        {
+            Slot slot = SlotContent.transform.GetChild(i).GetComponent<Slot>();
+            slot.Item = null;
+            slot.Visual.sprite = Transparent;
         }
     }
 

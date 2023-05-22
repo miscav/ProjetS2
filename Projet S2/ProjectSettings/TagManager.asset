@@ -10,6 +10,8 @@ TagManager:
   - Quete
   - Enemy
   - VolcanTrou
+  - Port
+  - Shop
   layers:
   - Default
   - TransparentFX
