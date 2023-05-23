@@ -80,6 +80,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
     <Compile Include="Assets\Scripts\ScriptPersonnages\Robots\PNJ.cs" />
+    <Compile Include="Assets\Scripts\ScriptAI\TestBis.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\FloatingEntities\Scripts\BoatController.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
@@ -92,7 +93,6 @@
     <Compile Include="Assets\Scripts\ScriptPersonnages\Robots\Marchant.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
-    <Compile Include="Assets\Scripts\ScriptAI\EnemyData.cs" />
     <Compile Include="Assets\Scripts\ScriptShop\Shop.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
     <Compile Include="Assets\OnTriggerBoat.cs" />
@@ -164,7 +164,6 @@
     <Compile Include="Assets\Scripts\ScriptPersonnages\Hero\Inventory.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
     <Compile Include="Assets\Audio\Script Audio\son.cs" />
-    <Compile Include="Assets\Scripts\ScriptAI\Enemy Control.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\Scripts\ScriptItems\Food\Food.cs" />
@@ -618,15 +617,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@3.8.1\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Android.GradleProject">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
