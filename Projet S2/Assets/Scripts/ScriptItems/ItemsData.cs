@@ -8,6 +8,7 @@ public class ItemsData : ScriptableObject
     [SerializeField] public Sprite Visual;
     [SerializeField] public GameObject Prefab;
     [SerializeField] public ItemType itemType;
+    [SerializeField] public int Price;
 
     public enum ItemType
     {

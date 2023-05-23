@@ -6,10 +6,8 @@ using UnityEngine.UI;
 public class ActionTrigger : MonoBehaviour
 {
     [SerializeField] private GameObject PickUpPanel;
-    [SerializeField] private GameObject ShopPanel;
     [SerializeField] private GameObject Item;
     [SerializeField] private Inventory inventory;
-    private Shop Shopping;
 
     private void Start()
     {
@@ -24,11 +22,6 @@ public class ActionTrigger : MonoBehaviour
             inventory.Add(Item.transform.gameObject.GetComponent<Items>().dataItem);
             Destroy(Item.transform.gameObject);
             PickUpPanel.SetActive(false);
-        }
-
-        if(Input.GetKeyDown(KeyCode.E) && Shopping != null) 
-        {
-            ShopPanel.SetActive(true);
         }
     }
 
@@ -45,7 +38,6 @@ public class ActionTrigger : MonoBehaviour
         {
             PickUpPanel.GetComponentInChildren<Text>().text = "Shopping";
             PickUpPanel.SetActive(true);
-            Shopping = other.GetComponent<Shop>();
         }
     }
 

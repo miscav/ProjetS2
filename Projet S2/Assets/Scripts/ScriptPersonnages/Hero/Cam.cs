@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,6 +10,7 @@ public class Cam : MonoBehaviour
     [SerializeField] Ray ray;
     [SerializeField] GameObject Interaction;
     [SerializeField] GameObject Text;
+    [SerializeField] private GameObject ShopPanel;
     [SerializeField] private static int QuetesAcheve;
     [SerializeField] private QueteManagement QueteVise;
     [SerializeField] private GameObject Accepter;
@@ -26,6 +28,7 @@ public class Cam : MonoBehaviour
         Abandonner.SetActive(false);
         Text.SetActive(false);
         Interaction.SetActive(false);
+        ShopPanel.SetActive(false);
     }
 
     // Update is called once per frame
@@ -49,6 +52,7 @@ public class Cam : MonoBehaviour
                     Debug.Log("soucis");
                 }
 
+                Interaction.GetComponentInChildren<Text>().text = "Talk";
                 Interaction.SetActive(true);
 
                 if (Input.GetKeyDown(KeyCode.E))
@@ -86,6 +90,16 @@ public class Cam : MonoBehaviour
                     {
                         Debug.Log("Plus de quetes disponibles");
                     }
+                }
+            }
+            else if (hit.collider.gameObject.CompareTag("Shop"))
+            {
+                Interaction.GetComponentInChildren<Text>().text = "Shop";
+                Interaction.SetActive(true);
+
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    ShopPanel.SetActive(true);
                 }
             }
             else
@@ -138,6 +152,11 @@ public class Cam : MonoBehaviour
     public void Close()
     {
         Text.SetActive(false);
+    }
+
+    public void CloseShop()
+    {
+        ShopPanel.SetActive(false);
     }
 
     public void Kill()
