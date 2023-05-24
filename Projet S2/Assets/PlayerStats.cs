@@ -4,7 +4,15 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
-     public AudioClip sonmort;
+    [SerializeField] public GameObject DrinkButton;
+    [SerializeField] public GameObject DrunkScreen;
+    private float ScreenTime;
+    private bool IsIn;
+    [SerializeField] public AudioClip Drinking;
+    private float Drinktime;
+    public Player player;
+
+    public AudioClip sonmort;
      public AudioClip sondegat;
     public bool IsAlive;
      float prochaine;
@@ -40,18 +48,58 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField]
     private float WaterDecreaseRate;
-    void Awake()
+    void Start()
     {
         currentHealth = maxHealth;
         currentHunger = maxHunger;
         currentWater = maxWater;
         prochaine = Time.time;
         IsAlive = true;
+
+        IsIn = false;
+        DrinkButton.SetActive(false);
+        DrunkScreen.SetActive(false);
+        Drinktime = 0;
+        ScreenTime = 0;
+        hungerDecreaseRate= 0.5f;
+        WaterDecreaseRate= 0.5f;
+        HealthDecreaseRateForWaterAndHunger= 0.5f;
     }
 
     void Update()
     {
+
+        if (Drinktime != 0 && Time.time - Drinktime > 3)
+        {
+            Debug.Log("vous avez bu");
+            DrunkScreen.SetActive(true);
+            currentWater = maxWater;
+            ScreenTime = Time.time;
+            Drinktime = 0;
+        }
+
+        if (ScreenTime != 0 && Time.time - ScreenTime > 3)
+        {
+            Debug.Log("panel desactivé");
+            DrunkScreen.SetActive(false);
+            ScreenTime = 0;
+        }
+
+        if (IsIn && Input.GetKeyDown(KeyCode.E))
+        {
+            Drink();
+        }
+
         UpdateHungerAndWaterBar();
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            DrinkButton.SetActive(true);
+            IsIn = true;
+        }
     }
 
     void TakeDamage(float damage, bool overTime = false)
@@ -86,6 +134,7 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateHungerAndWaterBar()
     {
+        Debug.Log("uptade test");
         // Diminue la faim au fil du temps et le visuel
         currentHunger -= hungerDecreaseRate * Time.deltaTime;
         HungerFill.fillAmount = currentHunger / maxHunger;
@@ -105,4 +154,19 @@ public class PlayerStats : MonoBehaviour
     }
 
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            DrinkButton.SetActive(false);
+            IsIn = false;
+        }
+    }
+
+    public void Drink()
+    {
+        DrinkButton.SetActive(false);
+        GetComponent<AudioSource>().PlayOneShot(Drinking);
+        Drinktime = Time.time;
+    }
 }

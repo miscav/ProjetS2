@@ -95,7 +95,6 @@
     <Compile Include="Assets\FloatingEntities\Scripts\WakeGenerator.cs" />
     <Compile Include="Assets\Scripts\ScriptShop\Shop.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-    <Compile Include="Assets\OnTriggerBoat.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -103,6 +102,7 @@
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Assets de la map\RobotSphere\Assets\Scripts\RobotFreeAnim.cs" />
+    <Compile Include="Assets\Scripts\ScriptTrigger\WellTriger.cs" />
     <Compile Include="Assets\FloatingEntities\Scripts\Orbital.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
@@ -203,6 +203,7 @@
     <Compile Include="Assets\Scripts\ScriptQuetes\QueteManagement.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Scripts\ScriptTrigger\OnTriggerBoat.cs" />
     <Compile Include="Assets\Scripts\ScriptQuetes\QuetePNJ.cs" />
     <Compile Include="Assets\Assets de la map\BrokenVector\LowPolyBrickHouses\Scripts\ModelCustomizer.cs" />
     <Compile Include="Assets\Assets de la map\Free_Rocks\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
